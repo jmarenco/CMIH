@@ -1,0 +1,411 @@
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Lunes	|	0.3333333333	|	0.5416666667	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Lunes	|	0.75	|	0.9166666667	|	1
+Física Teórica 1	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Cálculo Numérico/Elementos de Càlculo Numèrico	|		|	Lunes	|	0.3541666667	|	0.4791666667	|	1
+Mecánica Clásica	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Cálculo Numérico/Elementos de Càlculo Numèrico	|		|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Algoritmos y Estructuras de Datos III	|		|	Lunes	|	0.7083333333	|	0.875	|	1
+Física 2 (Atm)/Fìsica 3	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Análisis Real/Medida y Probabilidad	|		|	Lunes	|	0.5833333333	|	0.7916666667	|	1
+Teoría de Lenguajes	|		|	Lunes	|	0.75	|	0.875	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Algoritmos y Estructuras de Datos II	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Lunes	|	0.5833333333	|	0.7916666667	|	1
+Geometría	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Ingeniería de Software II	|		|	Lunes	|	0.75	|	0.9166666667	|	1
+Algoritmos y Estructuras de Datos II	|		|	Lunes	|	0.375	|	0.5833333333	|	1
+Ingeniería de Software I	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Estructura de la Materia 3	|		|	Lunes	|	0.375	|	0.5	|	1
+Temas de Física	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Métodos de Elementos Finitos y Aplicaciones	|		|	Lunes	|	0.4583333333	|	0.5416666667	|	1
+Física Teórica 3 	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Aritmética de Curvas Elípticas	|		|	Lunes	|	0.4166666667	|	0.5416666667	|	1
+Física de Partículas Elementales	|		|	Lunes	|	0.5833333333	|	0.7916666667	|	1
+Métodos Numéricos	|		|	Lunes	|	0.7291666667	|	0.875	|	1
+Anula Magna del 1	|		|	Lunes	|	0.3333333333	|	0.7083333333	|	1
+Algoritmos y Estructuras de Datos I	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Análisis Matemático I (B)	|		|	Lunes	|	0.5833333333	|	0.7916666667	|	2
+Física II Q)	|		|	Lunes	|	0.4166666667	|	0.625	|	2
+Ecología Ambiental	|		|	Lunes	|	0.625	|	0.7083333333	|	2
+Física I (Q)	|		|	Lunes	|	0.7083333333	|	0.7916666667	|	2
+Física I (Q)	|		|	Lunes	|	0.7916666667	|	0.9166666667	|	2
+Física 2 (Atm)/Fìsica 3	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Genética I 	|		|	Lunes	|	0.375	|	0.5416666667	|	2
+Introducción a la Botánica	|		|	Lunes	|	0.7083333333	|	0.8333333333	|	2
+Química Orgánica (Parte A) 	|		|	Lunes	|	0.4166666667	|	0.5	|	2
+Endocrinología Comparada	|		|	Lunes	|	0.3958333333	|	0.5416666667	|	2
+Química Física I 	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Química Física II	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Biología Molecular	|		|	Lunes	|	0.6666666667	|	0.7916666667	|	2
+Biología Molecular	|		|	Lunes	|	0.8125	|	0.8958333333	|	2
+Cálculo Numérico/Elementos de Càlculo Numèrico	|		|	Lunes	|	0.4791666667	|	0.5625	|	2
+Ecuaciones Diferenciales	|		|	Lunes	|	0.5833333333	|	0.7916666667	|	2
+Análisis Matemático I (B)	|		|	Lunes	|	0.3333333333	|	0.4583333333	|	2
+Análisis Matemático I (B)	|		|	Lunes	|	0.4583333333	|	0.5416666667	|	2
+Análisis Matemático I (B)	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Química Orgánica (Parte A) 	|		|	Lunes	|	0.7083333333	|	0.7916666667	|	2
+Análisis Matemático I (B)	|		|	Lunes	|	0.3333333333	|	0.4583333333	|	2
+Probabilidades y Estadística (M)	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Lunes	|	0.375	|	0.5416666667	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Lunes	|	0.5625	|	0.6875	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Lunes	|	0.7083333333	|	0.875	|	2
+Física I (Q)	|		|	Lunes	|	0.4583333333	|	0.5833333333	|	2
+Sobre Cambio de Creencias	|		|	Lunes	|	0.75	|	0.875	|	2
+Micología Experimental	|		|	Lunes	|	0.4166666667	|	0.5416666667	|	2
+Propiedades Físicas y Químicas de los Materiales	|		|	Lunes	|	0.75	|	0.875	|	2
+Fisiología del Comportamiento Animal	|		|	Lunes	|	0.375	|	0.5416666667	|	2
+Geometría Diferencial	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Química Biológica II A	|		|	Lunes	|	0.4166666667	|	0.5416666667	|	2
+Química Biológica (Q)	|		|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Fisiología del Sistema Nervioso	|		|	Lunes	|	0.75	|	0.875	|	2
+Parasitología	|		|	Lunes	|	0.4166666667	|	0.5416666667	|	2
+Parasitología	|		|	Lunes	|	0.5833333333	|	0.75	|	2
+Visión en Robótica	|		|	Lunes	|	0.75	|	0.875	|	2
+Fisiología del Comportamiento Animal	|		|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Fisiología del Comportamiento Animal	|		|	Lunes	|	0.75	|	0.9166666667	|	2
+Anula Magna del 2	|		|	Lunes	|	0.3333333333	|	0.9166666667	|	2
+Álgebra Lineal 	|		|	Martes	|	0.4166666667	|	0.5416666667	|	1
+Álgebra I	|		|	Martes	|	0.625	|	0.7083333333	|	1
+Física Teórica 2	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Física 1	|		|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Física 1	|		|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Teoría de las Comunicaciones 	|		|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Cálculo Avanzado	|		|	Martes	|	0.375	|	0.5833333333	|	1
+Álgebra I	|		|	Martes	|	0.7083333333	|	0.8333333333	|	1
+Física 1	|		|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Estructura de la Materia 4	|		|	Martes	|	0.7083333333	|	0.8333333333	|	1
+Álgebra I	|		|	Martes	|	0.8333333333	|	0.9166666667	|	1
+Probabilidades y Estadística (C)	|		|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Sistemas Operativos	|		|	Martes	|	0.7083333333	|	0.875	|	1
+Formas y Representaciones Automórfas	|		|	Martes	|	0.4166666667	|	0.5416666667	|	1
+Combinatoria	|		|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Paradigmas de Programación	|		|	Martes	|	0.7291666667	|	0.875	|	1
+Física 1	|		|	Martes	|	0.375	|	0.4583333333	|	1
+Organización del Computador II 	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Álgebra I	|		|	Martes	|	0.375	|	0.5833333333	|	1
+Álgebra Lineal 	|		|	Martes	|	0.5833333333	|	0.6666666667	|	1
+Probabilidades y Estadística (C)	|		|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Probabilidades y Estadística (C)	|		|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Estructura de la Materia 2	|		|	Martes	|	0.375	|	0.5	|	1
+Teoría de Transporte Óptimo II	|		|	Martes	|	0.6666666667	|	0.75	|	1
+Estadística y Data Mining	|		|	Martes	|	0.75	|	0.875	|	1
+Álgebra II	|		|	Martes	|	0.5833333333	|	0.7916666667	|	1
+Física 1	|		|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Física 1	|		|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Análisis Complejo	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Ecuaciones Diferenciales Ordinarias	|		|	Martes	|	0.375	|	0.5416666667	|	1
+Biología Sensorial Animal	|		|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Redes Neuronales	|		|	Martes	|	0.7083333333	|	0.8333333333	|	1
+Sistemas de Partículas Interactivas	|		|	Martes	|	0.4166666667	|	0.5416666667	|	1
+Optimización 	|		|	Martes	|	0.6666666667	|	0.875	|	1
+Física 2	|		|	Martes	|	0.375	|	0.5833333333	|	1
+Álgebra I	|		|	Martes	|	0.7083333333	|	0.8333333333	|	1
+Anula Magna del 1	|		|	Martes	|	0.3333333333	|	0.7083333333	|	1
+Organización del Computador I	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Genética I 	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Evolución	|		|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Biometría 	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Química General e Inorgánica I 	|		|	Martes	|	0.3541666667	|	0.5	|	2
+Conceptos y Problemas de la Filosofía de las Ciencias	|		|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Evolución	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Martes	|	0.5833333333	|	0.75	|	2
+Elementos de Cálculo Numérico (B)	|		|	Martes	|	0.75	|	0.875	|	2
+Química General e Inorgánica I 	|		|	Martes	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I 	|		|	Martes	|	0.5833333333	|	0.7291666667	|	2
+Complementos de Química Inorgánica y Analítica	|		|	Martes	|	0.75	|	0.875	|	2
+Biometría 	|		|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Estadística 	|		|	Martes	|	0.7083333333	|	0.8333333333	|	2
+Biometría 	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Química General e Inorgánica I 	|		|	Martes	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I 	|		|	Martes	|	0.75	|	0.8958333333	|	2
+Biometría 	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Química Biológica (Q)	|		|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Análisis Funcional	|		|	Martes	|	0.7083333333	|	0.9166666667	|	2
+Química General e Inorgánica II	|		|	Martes	|	0.4166666667	|	0.5	|	2
+Química General e Inorgánica II	|		|	Martes	|	0.5416666667	|	0.625	|	2
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Martes	|	0.75	|	0.9166666667	|	2
+Introducción a la Zoología 	|		|	Martes	|	0.5625	|	0.7291666667	|	2
+Química Analítica	|		|	Martes	|	0.75	|	0.875	|	2
+Elementos de Cálculo Numérico (B)	|		|	Martes	|	0.375	|	0.5	|	2
+Elementos de Cálculo Numérico (B)	|		|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Biometría 	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Historia de la Ciencia	|		|	Martes	|	0.75	|	0.9166666667	|	2
+Álgebra Lineal 	|		|	Martes	|	0.6666666667	|	0.7916666667	|	2
+Evolución	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Embriología Animal	|		|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Física 2	|		|	Martes	|	0.7083333333	|	0.9166666667	|	2
+Genética II	|		|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Genética I 	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Ecología y Desarrollo	|		|	Martes	|	0.5833333333	|	0.6666666667	|	2
+Ecología y Desarrollo	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Ecología y Comportamiento Animal 	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Química Fisiológica	|		|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Genética I 	|		|	Martes	|	0.7083333333	|	0.875	|	2
+Genética I 	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Ecología y Comportamiento Animal 	|		|	Martes	|	0.6041666667	|	0.7083333333	|	2
+Fisiología del Sistema Nervioso	|		|	Martes	|	0.75	|	0.9166666667	|	2
+Genética de Poblaciones	|		|	Martes	|	0.375	|	0.5416666667	|	2
+Genética de Poblaciones	|		|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Genética II	|		|	Martes	|	0.75	|	0.9166666667	|	2
+Física I (B-G)	|		|	Martes	|	0.375	|	0.5833333333	|	2
+Fisiología Vegetal	|		|	Martes	|	0.625	|	0.75	|	2
+Fisiología Vegetal	|		|	Martes	|	0.75	|	0.9166666667	|	2
+Anula Magna del 2	|		|	Martes	|	0.3333333333	|	0.75	|	2
+Introducción a la Biología Molecular y Celular (18/03-10/07)	|		|	Martes	|	0.75	|	0.875	|	2
+Relatividad General	|		|	Miércoles	|	0.4583333333	|	0.6666666667	|	1
+Estructura de la Materia 1	|		|	Miércoles	|	0.7083333333	|	0.8333333333	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Miércoles	|	0.8333333333	|	0.9166666667	|	1
+Física Teórica 1	|		|	Miércoles	|	0.375	|	0.5833333333	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Teoría de las Comunicaciones 	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Lógica y Computabilidad	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Base de Datos	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Análisis Matemático III/Matemática 4	|		|	Miércoles	|	0.3333333333	|	0.5416666667	|	1
+Coloquios de Matemática	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Análisis Matemático III/Matemática 4	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Geometría	|		|	Miércoles	|	0.375	|	0.5833333333	|	1
+Física Teórica 3 	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Formas y Representaciones Automórfas	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	1
+Teoría de Lenguajes	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Miércoles	|	0.3333333333	|	0.5416666667	|	1
+Algoritmos y Estructuras de Datos II	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructuras de Datos III	|		|	Miércoles	|	0.7083333333	|	0.875	|	1
+Álgebra Conmutativa	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	1
+Ecuaciones Diferenciales	|		|	Miércoles	|	0.5833333333	|	0.7916666667	|	1
+Algoritmos y Estructuras de Datos II	|		|	Miércoles	|	0.375	|	0.5833333333	|	1
+Anàlisis II/Matemàtica 3/Anàlisis Matemàtica II	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Estructura de la Materia 3	|		|	Miércoles	|	0.375	|	0.5	|	1
+Física 4 	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Métodos de Elementos Finitos y Aplicaciones	|		|	Miércoles	|	0.4583333333	|	0.5416666667	|	1
+Epistemología de la Física	|		|	Miércoles	|	0.7083333333	|	0.875	|	1
+Física de Partículas Elementales	|		|	Miércoles	|	0.5833333333	|	0.7916666667	|	1
+Seguridad de la Información	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Física 4 	|		|	Miércoles	|	0.375	|	0.5833333333	|	1
+Métodos Numéricos	|		|	Miércoles	|	0.7291666667	|	0.875	|	1
+Anula Magna del 1	|		|	Miércoles	|	0.3333333333	|	0.7083333333	|	1
+Algoritmos y Estructuras de Datos I	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Física II (B-G)	|		|	Miércoles	|	0.375	|	0.5833333333	|	2
+Análisis Matemático I (B)	|		|	Miércoles	|	0.5833333333	|	0.7916666667	|	2
+Física II Q)	|		|	Miércoles	|	0.4166666667	|	0.625	|	2
+Ecología Ambiental	|		|	Miércoles	|	0.625	|	0.7083333333	|	2
+Física I (Q)	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Física I (Q)	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Miércoles	|	0.5833333333	|	0.75	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Miércoles	|	0.75	|	0.9166666667	|	2
+Genética I 	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Química Orgánica (Parte A) 	|		|	Miércoles	|	0.4166666667	|	0.5	|	2
+Química Biológica (B)	|		|	Miércoles	|	0.75	|	0.875	|	2
+Endocrinología Comparada	|		|	Miércoles	|	0.3958333333	|	0.5416666667	|	2
+Microbiología de Alimentos	|		|	Miércoles	|	0.5833333333	|	0.6666666667	|	2
+Química Física I 	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	2
+Microbiología de Alimentos	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	2
+Invertebrados I 	|		|	Miércoles	|	0.5625	|	0.6875	|	2
+Química Física II	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	2
+Toxicología de Alimentos	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Fisiología del Comportamiento Animal	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Introducción a la Botánica	|		|	Miércoles	|	0.7083333333	|	0.8333333333	|	2
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Miércoles	|	0.8333333333	|	0.9166666667	|	2
+Ecología General	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Evolución	|		|	Miércoles	|	0.7083333333	|	0.875	|	2
+Análisis Matemático I (B)	|		|	Miércoles	|	0.3333333333	|	0.4583333333	|	2
+Análisis Matemático I (B)	|		|	Miércoles	|	0.4583333333	|	0.5416666667	|	2
+Análisis Matemático I (B)	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	2
+Psicología y Aprendizaje	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	2
+Química Orgánica (Parte A) 	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Análisis Matemático I (B)	|		|	Miércoles	|	0.3333333333	|	0.4583333333	|	2
+Química Orgánica I	|		|	Miércoles	|	0.4583333333	|	0.5833333333	|	2
+Física I (B-G)	|		|	Miércoles	|	0.5833333333	|	0.7916666667	|	2
+Química Orgánica I	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Miércoles	|	0.5625	|	0.6875	|	2
+Ecología de Comunidades y Ecosistemas	|		|	Miércoles	|	0.7083333333	|	0.875	|	2
+Ecología General	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Ecología General	|		|	Miércoles	|	0.7083333333	|	0.875	|	2
+Ecología General	|		|	Miércoles	|	0.375	|	0.5416666667	|	2
+Ecología General	|		|	Miércoles	|	0.7083333333	|	0.875	|	2
+Parasitología	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	2
+Parasitología	|		|	Miércoles	|	0.5833333333	|	0.75	|	2
+Química Biológica II A	|		|	Miércoles	|	0.75	|	0.875	|	2
+Química Biológica II A	|		|	Miércoles	|	0.4166666667	|	0.5416666667	|	2
+Fisiología del Sistema Nervioso	|		|	Miércoles	|	0.75	|	0.875	|	2
+Morfología de Criptógamas	|		|	Miércoles	|	0.3958333333	|	0.5208333333	|	2
+Comunicación Científica Pública (09/04-23/07)	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Biodiversidad de Animales	|		|	Miércoles	|	0.75	|	0.875	|	2
+Física I (Q)	|		|	Miércoles	|	0.4583333333	|	0.5833333333	|	2
+Física II (B-G)	|		|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Física II (B-G)	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Física II (B-G)	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Anula Magna del 2	|		|	Miércoles	|	0.3333333333	|	0.9166666667	|	2
+Cálculo Numérico/Elementos de Cálculo Numérico	|		|	Jueves	|	0.3541666667	|	0.4791666667	|	1
+Cálculo Numérico/Elementos de Cálculo Numérico	|		|	Jueves	|	0.4791666667	|	0.5625	|	1
+Matemática 2	|		|	Jueves	|	0.5833333333	|	0.6666666667	|	1
+Física Teórica 2	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Jueves	|	0.75	|	0.9166666667	|	1
+Matemática 2	|		|	Jueves	|	0.6666666667	|	0.7916666667	|	1
+Carrera de Data Mining (Aprendizaje Automático)	|		|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Cálculo Numérico/Elementos de Cálculo Numérico	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	1
+Estructura de la Materia 4	|		|	Jueves	|	0.7083333333	|	0.8333333333	|	1
+Física 2 (Atm)/Fìsica 3	|		|	Jueves	|	0.375	|	0.5833333333	|	1
+Sistemas Operativos	|		|	Jueves	|	0.7083333333	|	0.875	|	1
+Combinatoria	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	1
+Paradigmas de Programación	|		|	Jueves	|	0.7083333333	|	0.8125	|	1
+Teoría de Lenguajes	|		|	Jueves	|	0.8125	|	0.9166666667	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Jueves	|	0.375	|	0.5833333333	|	1
+Organización del Computador II 	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Jueves	|	0.375	|	0.5833333333	|	1
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Jueves	|	0.5833333333	|	0.7916666667	|	1
+Estructura de la Materia 2	|		|	Jueves	|	0.375	|	0.5	|	1
+Teoría de Transporte Óptimo II	|		|	Jueves	|	0.6666666667	|	0.75	|	1
+Ingeniería de Software II	|		|	Jueves	|	0.75	|	0.9166666667	|	1
+Ingeniería de Software I	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Aritmética de Curvas Elípticas	|		|	Jueves	|	0.4166666667	|	0.5416666667	|	1
+Temas de Física	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Ecuaciones Diferenciales Ordinarias	|		|	Jueves	|	0.375	|	0.5416666667	|	1
+Redes Neuronales	|		|	Jueves	|	0.7083333333	|	0.8333333333	|	1
+Sistemas de Partículas Interactivas	|		|	Jueves	|	0.4166666667	|	0.5416666667	|	1
+Física 3 (Atm)	|		|	Jueves	|	0.5833333333	|	0.7916666667	|	1
+Matemática 2	|		|	Jueves	|	0.4166666667	|	0.5416666667	|	1
+Mecánica Clásica	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Anula Magna del 1	|		|	Jueves	|	0.3333333333	|	0.7083333333	|	1
+Organización del Computador I	|		|	Jueves	|	0.7083333333	|	0.7708333333	|	1
+Anula Magna del 1	|		|	Jueves	|	0.7708333333	|	0.9166666667	|	1
+Genética I 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Evolución	|		|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Biometría 	|		|	Jueves	|	0.7083333333	|	0.875	|	2
+Química General e Inorgánica I 	|		|	Jueves	|	0.3541666667	|	0.5	|	2
+Química Orgánica II 	|		|	Jueves	|	0.5208333333	|	0.6458333333	|	2
+Evolución	|		|	Jueves	|	0.7083333333	|	0.875	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Jueves	|	0.5833333333	|	0.75	|	2
+Elementos de Cálculo Numérico (B)	|		|	Jueves	|	0.75	|	0.875	|	2
+Química General e Inorgánica I 	|		|	Jueves	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I 	|		|	Jueves	|	0.5833333333	|	0.7291666667	|	2
+Complementos de Química Inorgánica y Analítica	|		|	Jueves	|	0.75	|	0.875	|	2
+Biometría 	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Química Biológica (B)	|		|	Jueves	|	0.75	|	0.875	|	2
+Biometría 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Química General e Inorgánica I 	|		|	Jueves	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I 	|		|	Jueves	|	0.75	|	0.8958333333	|	2
+Biometría 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Taller de Cálculo Avanzado	|		|	Jueves	|	0.5833333333	|	0.7916666667	|	2
+Química General e Inorgánica II	|		|	Jueves	|	0.4166666667	|	0.5	|	2
+Química General e Inorgánica II	|		|	Jueves	|	0.5416666667	|	0.625	|	2
+Biología Molecular	|		|	Jueves	|	0.6875	|	0.7708333333	|	2
+Biología Molecular	|		|	Jueves	|	0.7708333333	|	0.8958333333	|	2
+Genética I 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Introducción a la Zoología 	|		|	Jueves	|	0.5625	|	0.7291666667	|	2
+Química Analítica	|		|	Jueves	|	0.75	|	0.875	|	2
+Elementos de Cálculo Numérico (B)	|		|	Jueves	|	0.375	|	0.5	|	2
+Elementos de Cálculo Numérico (B)	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Fisiología Vegetal	|		|	Jueves	|	0.625	|	0.75	|	2
+Historia de la Ciencia	|		|	Jueves	|	0.75	|	0.9166666667	|	2
+Probabilidades y Estadística (C)	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Probabilidades y Estadística (C)	|		|	Jueves	|	0.7083333333	|	0.7916666667	|	2
+Probabilidades y Estadística (C)	|		|	Jueves	|	0.7916666667	|	0.9166666667	|	2
+Evolución	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Embriología Animal	|		|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Biometría 	|		|	Jueves	|	0.7083333333	|	0.875	|	2
+Química Orgánica (Parte A) 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Química Orgánica (Parte A) 	|		|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Genética I 	|		|	Jueves	|	0.7083333333	|	0.875	|	2
+Micología Experimental	|		|	Jueves	|	0.4166666667	|	0.5416666667	|	2
+Ecología y Desarrollo	|		|	Jueves	|	0.5833333333	|	0.6666666667	|	2
+Ecología y Desarrollo	|		|	Jueves	|	0.7083333333	|	0.875	|	2
+Ecología y Comportamiento Animal 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Química Fisiológica	|		|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Geometría Diferencial	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	2
+Química Orgánica (Parte A) 	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Ecología y Comportamiento Animal 	|		|	Jueves	|	0.6041666667	|	0.7083333333	|	2
+Probabilidades y Estadística (M)	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	2
+Genética de Poblaciones	|		|	Jueves	|	0.375	|	0.5416666667	|	2
+Genética de Poblaciones	|		|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Análisis Real/Medida y Probabilidad	|		|	Jueves	|	0.5833333333	|	0.7916666667	|	2
+Anula Magna del 2	|		|	Jueves	|	0.3333333333	|	0.75	|	2
+Introducción a la Biología Molecular y Celular (18/03-10/07)	|		|	Jueves	|	0.75	|	0.875	|	2
+Álgebra Lineal 	|		|	Viernes	|	0.4166666667	|	0.5416666667	|	1
+Álgebra I	|		|	Viernes	|	0.625	|	0.7083333333	|	1
+Estructura de la Materia 1	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	1
+Física 1	|		|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Física 1	|		|	Viernes	|	0.7083333333	|	0.7916666667	|	1
+Carrera de Data Mining (Sistema de Información Geográfica)	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Cálculo Avanzado	|		|	Viernes	|	0.375	|	0.5833333333	|	1
+Lógica y Computabilidad	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Física 1	|		|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Álgebra I	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	1
+Álgebra I	|		|	Viernes	|	0.8333333333	|	0.9166666667	|	1
+Análisis Matemático III/Matemática 4	|		|	Viernes	|	0.3333333333	|	0.5416666667	|	1
+Física 2	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Física 4 	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Física 1	|		|	Viernes	|	0.375	|	0.4583333333	|	1
+Relatividad General	|		|	Viernes	|	0.4583333333	|	0.6666666667	|	1
+Algoritmos y Estructuras de Datos II	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Álgebra I	|		|	Viernes	|	0.375	|	0.5833333333	|	1
+Álgebra Lineal 	|		|	Viernes	|	0.5833333333	|	0.6666666667	|	1
+Algoritmos y Estructuras de Datos III	|		|	Viernes	|	0.7083333333	|	0.875	|	1
+Álgebra Conmutativa	|		|	Viernes	|	0.4166666667	|	0.5416666667	|	1
+Análisis Funcional	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructuras de Datos II	|		|	Viernes	|	0.375	|	0.5833333333	|	1
+Álgebra II	|		|	Viernes	|	0.5833333333	|	0.7916666667	|	1
+Física 1	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Física 1	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	1
+Análisis Complejo	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Física 4 	|		|	Viernes	|	0.375	|	0.5833333333	|	1
+Optimización 	|		|	Viernes	|	0.6666666667	|	0.875	|	1
+Microbiología del Suelo	|		|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Didáctica de la Geometría 	|		|	Viernes	|	0.5833333333	|	0.75	|	1
+Seguridad de la Información	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Física 2	|		|	Viernes	|	0.375	|	0.5833333333	|	1
+Álgebra Lineal 	|		|	Viernes	|	0.6666666667	|	0.7916666667	|	1
+Carrera de Data Mining (Data Mining)	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Anula Magna del 1	|		|	Viernes	|	0.3333333333	|	0.7083333333	|	1
+Algoritmos y Estructuras de Datos I	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Física II (B-G)	|		|	Viernes	|	0.375	|	0.5833333333	|	2
+Análisis Matemático III/Matemática 4	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	2
+Conceptos y Problemas de la Filosofía de las Ciencias	|		|	Viernes	|	0.5833333333	|	0.6666666667	|	2
+Álgebra I	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	2
+Introducción a la Biología Molecular y Celular (01/04/-04/07)	|		|	Viernes	|	0.5833333333	|	0.75	|	2
+Genética I 	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Estadística 	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	2
+Química Biológica	|		|	Viernes	|	0.375	|	0.5	|	2
+Química Biológica	|		|	Viernes	|	0.5416666667	|	0.6666666667	|	2
+Química Biológica	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	2
+Microbiología de Alimentos	|		|	Viernes	|	0.4166666667	|	0.5416666667	|	2
+Invertebrados I 	|		|	Viernes	|	0.5625	|	0.6875	|	2
+Base de Datos	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	2
+Química Orgánica (Parte A) 	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Biología Molecular	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Análisis I/Matemàtica 1/Anàlisis Matemàtico I/Análisis II	|		|	Viernes	|	0.75	|	0.9166666667	|	2
+Ecología General	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Evolución	|		|	Viernes	|	0.7083333333	|	0.875	|	2
+Psicología y Aprendizaje	|		|	Viernes	|	0.4166666667	|	0.5416666667	|	2
+Física I (B-G)	|		|	Viernes	|	0.5833333333	|	0.7916666667	|	2
+Química Orgánica (Parte A) 	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Ecología General	|		|	Viernes	|	0.7083333333	|	0.875	|	2
+Ecología General	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Genética II	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Genética II	|		|	Viernes	|	0.75	|	0.9166666667	|	2
+Ecología General	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Biología Sensorial Animal	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Ecología General	|		|	Viernes	|	0.7083333333	|	0.875	|	2
+Química Orgánica (Parte A) 	|		|	Viernes	|	0.375	|	0.5416666667	|	2
+Física Contemporanea I	|		|	Viernes	|	0.6666666667	|	0.8333333333	|	2
+Química Biológica II A	|		|	Viernes	|	0.4166666667	|	0.5416666667	|	2
+Microbiología de Alimentos	|		|	Viernes	|	0.7083333333	|	0.8333333333	|	2
+Morfología de Criptógamas	|		|	Viernes	|	0.3958333333	|	0.5208333333	|	2
+Didáctica Especial y Práctica de la Enseñanza I (Computación)	|		|	Viernes	|	0.5833333333	|	0.75	|	2
+Biodiversidad de Animales	|		|	Viernes	|	0.75	|	0.875	|	2
+Física I (B-G)	|		|	Viernes	|	0.375	|	0.5833333333	|	2
+Física II (B-G)	|		|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Física II (B-G)	|		|	Viernes	|	0.7083333333	|	0.7916666667	|	2
+Física II (B-G)	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	2
+Anula Magna del 2	|		|	Viernes	|	0.3333333333	|	0.9166666667	|	2
+Carrera de Data Mining (Taller de Tesis)	|		|	Sábado	|	0.375	|	0.6666666667	|	1
+Introducción a la Biología Molecular y Celular (18/03-10/07)	|		|	Sábado	|	0.3958333333	|	0.5	|	2
+

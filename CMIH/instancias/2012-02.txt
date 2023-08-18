@@ -1,0 +1,508 @@
+Algebra I	|	Graña Matías	|	Martes	|	0.375	|	0.4583333333	|	1
+Algebra I	|	Graña Matías	|	Viernes	|	0.375	|	0.4583333333	|	1
+Algebra I	|	Pacetti Ariel	|	Martes	|	0.75	|	0.8333333333	|	1
+Algebra I	|	Pacetti Ariel	|	Viernes	|	0.75	|	0.8333333333	|	1
+Algebra I	|	Seiguer Malena	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Algebra I	|	Seiguer Malena	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Algebra I	|	Tesauri Susana	|	Martes	|	0.8333333333	|	0.9166666667	|	1
+Algebra I	|	Tesauri Susana	|	Viernes	|	0.8333333333	|	0.9166666667	|	1
+Algebra I	|	Tesauri Susana	|	Miércoles	|	0.75	|	0.8333333333	|	1
+Algebra I	|	Pacetti Ariel	|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Algebra I	|	Pacetti Ariel	|	Viernes	|	0.5833333333	|	0.7083333333	|	1
+Algebra II	|	Solerno Pablo	|	Martes	|	0.5833333333	|	0.6666666667	|	1
+Algebra II	|	Solerno Pablo	|	Viernes	|	0.5833333333	|	0.6666666667	|	1
+Algebra II	|	Sirolli Nicolás	|	Martes	|	0.6666666667	|	0.7916666667	|	1
+Algebra II	|	Sirolli Nicolás	|	Viernes	|	0.6666666667	|	0.7916666667	|	1
+Algebra III	|	Sánchez Carlos	|	Martes	|	0.5833333333	|	0.6666666667	|	1
+Algebra III	|	Sánchez Carlos	|	Viernes	|	0.5833333333	|	0.6666666667	|	1
+Algebra III	|	Valdettaro Marcelo	|	Martes	|	0.6666666667	|	0.7916666667	|	1
+Algebra III	|	Valdettaro Marcelo	|	Viernes	|	0.6666666667	|	0.7916666667	|	1
+Algebra Lineal	|	Krick Teresa	|	Martes	|	0.5833333333	|	0.6666666667	|	1
+Algebra Lineal	|	Krick Teresa	|	Viernes	|	0.5833333333	|	0.6666666667	|	1
+Algebra Lineal	|	Galicer Daniel	|	Martes	|	0.4166666667	|	0.5416666667	|	1
+Algebra Lineal	|	Galicer Daniel	|	Viernes	|	0.4166666667	|	0.5416666667	|	1
+Algebra Lineal	|	Zadunaisky Bustillos Pablo	|	Martes	|	0.6666666667	|	0.7916666667	|	1
+Algebra Lineal	|	Zadunaisky Bustillos Pablo	|	Viernes	|	0.6666666667	|	0.7916666667	|	1
+Análisis Armónico	|	Molter Ursula	|	Martes	|	0.6666666667	|	0.875	|	1
+Análisis Armónico	|	Molter Ursula	|	Viernes	|	0.6666666667	|	0.875	|	1
+Análisis Complejo	|	Lami Dozo Enrique	|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Análisis Complejo	|	Lami Dozo Enrique	|	Viernes	|	0.7083333333	|	0.7916666667	|	1
+Análisis Complejo	|	Di Fiore Carlos	|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Análisis Complejo	|	Di Fiore Carlos	|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Análisis Estocástico	|	Armendariz María Inés	|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Análisis Estocástico	|	Armendariz María Inés	|	Miércoles	|	0.6666666667	|	0.7916666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Perrucci Daniel/Fernández Bonder Julián	|	Lunes	|	0.4583333333	|	0.5416666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Perrucci Daniel/Fernández Bonder Julián	|	Jueves	|	0.4583333333	|	0.5416666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Duran Ricardo	|	Lunes	|	0.75	|	0.8333333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Duran Ricardo	|	Jueves	|	0.75	|	0.8333333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Zilber Jorge	|	Martes	|	0.75	|	0.8333333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Zilber Jorge	|	Viernes	|	0.75	|	0.8333333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Jancsa Alejandra/Paternostro Victoria	|	Lunes	|	0.3333333333	|	0.4583333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Jancsa Alejandra/Paternostro Victoria	|	Jueves	|	0.3333333333	|	0.4583333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Pérez Héctor	|	Martes	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Pérez Héctor	|	Miércoles	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Pérez Héctor	|	Viernes	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Noni María Laura	|	Lunes	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Noni María Laura	|	Miércoles	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Noni María Laura	|	Jueves	|	0.8333333333	|	0.9166666667	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Jancsa Alejandra	|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Análisis I/Matemátca 1/Análisis Matemático I/Análisis II	|	Jancsa Alejandra	|	Jueves	|	0.5833333333	|	0.7083333333	|	1
+Análisis II/Matemática 3	|	Farinati Marco	|	Lunes	|	0.4583333333	|	0.5416666667	|	1
+Análisis II/Matemática 3	|	Farinati Marco	|	Miércoles	|	0.4583333333	|	0.5416666667	|	1
+Análisis II/Matemática 3	|	Carando Daniel	|	Lunes	|	0.375	|	0.4583333333	|	1
+Análisis II/Matemática 3	|	Carando Daniel	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Análisis II/Matemática 3	|	Armentano Gabriela	|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Análisis II/Matemática 3	|	Armentano Gabriela	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Análisis II/Matemática 3	|	Haddad Julián	|	Lunes	|	0.3333333333	|	0.4583333333	|	1
+Análisis II/Matemática 3	|	Haddad Julián	|	Miércoles	|	0.3333333333	|	0.4583333333	|	1
+Análisis II/Matemática 3	|	Freyre Sebastián	|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Análisis II/Matemática 3	|	Freyre Sebastián	|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Análisis II/Matemática 3	|	Rodríguez Cirone Emanuel	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Análisis II/Matemática 3	|	Rodríguez Cirone Emanuel	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Análisis II/Matemática 3	|	Comas Gonzalo	|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Análisis II/Matemática 3	|	Comas Gonzalo	|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Análisis Matemático I (B)	|	Lombardi Ariel	|	Lunes	|	0.4583333333	|	0.5416666667	|	2
+Análisis Matemático I (B)	|	Lombardi Ariel	|	Miércoles	|	0.4583333333	|	0.5416666667	|	2
+Análisis Matemático I (B)	|	Schifini Claudio	|	Lunes	|	0.7083333333	|	0.7916666667	|	2
+Análisis Matemático I (B)	|	Schifini Claudio	|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Análisis Matemático I (B)	|	Almeida Marcela	|	Lunes	|	0.3333333333	|	0.4583333333	|	2
+Análisis Matemático I (B)	|	Almeida Marcela	|	Miércoles	|	0.3333333333	|	0.4583333333	|	2
+Análisis Matemático I (B)	|	Lombardi Leandro	|	Lunes	|	0.7916666667	|	0.9166666667	|	2
+Análisis Matemático I (B)	|	Lombardi Leandro	|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Análisis Matemático I (B)	|	Muro Luis	|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Análisis Matemático I (B)	|	Muro Luis	|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Análisis Matemático III/Matemática 4	|	Lederman Claudia	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Análisis Matemático III/Matemática 4	|	Lederman Claudia	|	Viernes	|	0.375	|	0.4583333333	|	1
+Análisis Matemático III/Matemática 4	|	Devoto Jorge	|	Miércoles	|	0.7916666667	|	0.875	|	1
+Análisis Matemático III/Matemática 4	|	Devoto Jorge	|	Viernes	|	0.7916666667	|	0.875	|	1
+Análisis Matemático III/Matemática 4	|	Heineken Sigrid	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Análisis Matemático III/Matemática 4	|	Heineken Sigrid	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Análisis Matemático III/Matemática 4	|	Pérez Héctor	|	Miércoles	|	0.6666666667	|	0.7916666667	|	1
+Análisis Matemático III/Matemática 4	|	Pérez Héctor	|	Viernes	|	0.6666666667	|	0.7916666667	|	1
+Análisis No Lineal:Métodos Topológicos	|	Amster Pablo	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Análisis No Lineal:Métodos Topológicos	|	Amster Pablo	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Análisis Numérico	|	Martínez Sandra	|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Análisis Numérico	|	Martínez Sandra	|	Jueves	|	0.7083333333	|	0.7916666667	|	1
+Análisis Numérico	|	Ojea Ignacio	|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Análisis Numérico	|	Ojea Ignacio	|	Jueves	|	0.5833333333	|	0.7083333333	|	1
+Análisis Real/Medida y Probabilidad	|	Becker María Elena	|	Lunes	|	0.5833333333	|	0.6666666667	|	1
+Análisis Real/Medida y Probabilidad	|	Becker María Elena	|	Jueves	|	0.5833333333	|	0.6666666667	|	1
+Análisis Real/Medida y Probabilidad	|	Valdettaro Marcelo	|	Lunes	|	0.6666666667	|	0.7916666667	|	1
+Análisis Real/Medida y Probabilidad	|	Valdettaro Marcelo	|	Jueves	|	0.6666666667	|	0.7916666667	|	1
+Cálculo Avanzado	|	Petrovich Alejandro	|	Lunes	|	0.375	|	0.4583333333	|	1
+Cálculo Avanzado	|	Petrovich Alejandro	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Cálculo Avanzado	|	Camporino Maximiliano	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Cálculo Avanzado	|	Camporino Maximiliano	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Taller de Cálculo Avanzado	|	Cabrelli Carlos	|	Jueves	|	0.5833333333	|	0.6666666667	|	1
+Taller de Cálculo Avanzado	|	Carando Daniel	|	Jueves	|	0.4166666667	|	0.5416666667	|	1
+Taller de Cálculo Avanzado	|	Carando Daniel	|	Jueves	|	0.6666666667	|	0.7916666667	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Acosta Rodríguez Gabriel	|	Martes	|	0.4583333333	|	0.5416666667	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Acosta Rodríguez Gabriel	|	Viernes	|	0.4583333333	|	0.5416666667	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Maurette Manuel	|	Martes	|	0.3333333333	|	0.4583333333	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Maurette Manuel	|	Viernes	|	0.3333333333	|	0.4583333333	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Maurette Manuel	|	Martes	|	0.5833333333	|	0.7083333333	|	1
+Elementos de Cálculo Numérico/Cálculo Numérico	|	Maurette Manuel	|	Viernes	|	0.5833333333	|	0.7083333333	|	1
+Ecuaciones Diferenciales A/B	|	Wolanski Noemí	|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Ecuaciones Diferenciales A/B	|	Wolanski Noemí	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Ecuaciones Diferenciales A/B	|	Afonso Joana	|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Ecuaciones Diferenciales A/B	|	Afonso Joana	|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Ecuaciones Polinomiales y Algoritmos II	|	Dickenstein Alicia	|	Lunes	|	0.5416666667	|	0.6666666667	|	1
+Ecuaciones Polinomiales y Algoritmos II	|	Dickenstein Alicia	|	Jueves	|	0.5416666667	|	0.6666666667	|	1
+Ecuaciones Polinomiales y Algoritmos II	|	Dickenstein Alicia	|	Martes	|	0.5833333333	|	0.6666666667	|	1
+Elementos de Cálculo Numérico (B)	|	Sasyk Roman	|	Lunes	|	0.375	|	0.5	|	2
+Elementos de Cálculo Numérico (B)	|	Sasyk Roman	|	Miércoles	|	0.375	|	0.5	|	2
+Elementos de Cálculo Numérico (B)	|	Lassalle Silvia	|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Elementos de Cálculo Numérico (B)	|	Lassalle Silvia	|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Elementos de Cálculo Numérico (B)	|	Cortiñas Guillermo	|	Lunes	|	0.75	|	0.875	|	2
+Elementos de Cálculo Numérico (B)	|	Cortiñas Guillermo	|	Miércoles	|	0.75	|	0.875	|	2
+Estadística (M)	|	Boente Graciela	|	Lunes	|	0.4583333333	|	0.5416666667	|	2
+Estadística (M)	|	Boente Graciela	|	Miércoles	|	0.4583333333	|	0.5416666667	|	2
+Estadística (M)	|	Bali Juan	|	Lunes	|	0.3333333333	|	0.4583333333	|	2
+Estadística (M)	|	Bali Juan	|	Miércoles	|	0.3333333333	|	0.4583333333	|	2
+Estadística (Q)	|	Bianco Ana	|	Martes	|	0.375	|	0.4583333333	|	2
+Estadística (Q)	|	Bianco Ana	|	Jueves	|	0.375	|	0.4583333333	|	2
+Estadística (Q)	|	Szretter Noste María Eugenia	|	Martes	|	0.4583333333	|	0.5416666667	|	2
+Estadística (Q)	|	Szretter Noste María Eugenia	|	Jueves	|	0.4583333333	|	0.5416666667	|	2
+Geometría Algebráica	|	Cukierman Fernando	|	Lunes	|	0.5833333333	|	0.7083333333	|	1
+Geometría Algebráica	|	Cukierman Fernando	|	Viernes	|	0.5416666667	|	0.6666666667	|	1
+Geometría Diferencial y Métrica	|	Larotonda Gabriel	|	Lunes	|	0.4166666667	|	0.5833333333	|	1
+Geometría Proyectiva	|	Keilhauer Guillermo	|	Martes	|	0.4583333333	|	0.5416666667	|	1
+Geometría Proyectiva	|	Keilhauer Guillermo	|	Viernes	|	0.4583333333	|	0.5416666667	|	1
+Geometría Proyectiva	|	Henry Guillermo	|	Martes	|	0.3333333333	|	0.4583333333	|	1
+Geometría Proyectiva	|	Henry Guillermo	|	Viernes	|	0.3333333333	|	0.4583333333	|	1
+Historia de la Ciencia (M)	|	Fava Norberto	|	Lunes	|	0.5833333333	|	0.75	|	1
+Investigación Operativa (M)	|	Duran Guillermo	|	Martes	|	0.375	|	0.4583333333	|	1
+Investigación Operativa (M)	|	Duran Guillermo	|	Viernes	|	0.375	|	0.4583333333	|	1
+Investigación Operativa (M)	|	Vivas Quimey	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Investigación Operativa (M)	|	Vivas Quimey	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Matemática 2	|	López María Cristina	|	Jueves	|	0.7083333333	|	0.7916666667	|	1
+Matemática 2	|	Botbol Nicolás	|	Jueves	|	0.5833333333	|	0.7083333333	|	1
+Matemática 2	|	Botbol Nicolás	|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Operadores en Espacio de Funciones Analíticas	|	Suarez Fernando	|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Operadores en Espacio de Funciones Analíticas	|	Suarez Fernando	|	Jueves	|	0.7083333333	|	0.7916666667	|	1
+Probabilidades y Estadística (M)	|	De Napoli Pablo	|	Lunes	|	0.7083333333	|	0.7916666667	|	2
+Probabilidades y Estadística (M)	|	De Napoli Pablo	|	Jueves	|	0.7083333333	|	0.7916666667	|	2
+Probabilidades y Estadística (M)	|	Molina Julieta	|	Lunes	|	0.7916666667	|	0.9166666667	|	2
+Probabilidades y Estadística (M)	|	Molina Julieta	|	Jueves	|	0.7916666667	|	0.9166666667	|	2
+Probabilidades y Estadística (C)	|	Groisman Pablo	|	Martes	|	0.4583333333	|	0.5416666667	|	2
+Probabilidades y Estadística (C)	|	Groisman Pablo	|	Jueves	|	0.4583333333	|	0.5416666667	|	2
+Probabilidades y Estadística (C)	|	Pinasco Juan Pablo	|	Martes	|	0.7083333333	|	0.7916666667	|	2
+Probabilidades y Estadística (C)	|	Pinasco Juan Pablo	|	Jueves	|	0.7083333333	|	0.7916666667	|	2
+Probabilidades y Estadística (C)	|	Martínez Alejandra	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Probabilidades y Estadística (C)	|	Martínez Alejandra	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Probabilidades y Estadística (C)	|	Bali Juan	|	Martes	|	0.7916666667	|	0.9166666667	|	2
+Probabilidades y Estadística (C)	|	Bali Juan	|	Jueves	|	0.7916666667	|	0.9166666667	|	2
+Problemas Matemáticos de la Industria	|	Etcheverry Javier	|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Problemas Matemáticos de la Industria	|	Etcheverry Javier	|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Temas de Categorías y Teoría de Topos	|	Dubuc Eduardo	|	Jueves	|	0.75	|	0.9166666667	|	1
+Teoría de Algebras	|	Solotar Andrea	|	Jueves	|	0.5833333333	|	0.7916666667	|	1
+Teoría de Probabilidades	|	Ferrari Pablo	|	Lunes	|	0.625	|	0.7083333333	|	1
+Teoría de Probabilidades	|	Ferrari Pablo	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Teoría de Probabilidades	|	Ferrari Pablo	|	Lunes	|	0.7083333333	|	0.8333333333	|	1
+Teoría de Probabilidades	|	Ferrari Pablo	|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Topología	|	Barmak Jonathan	|	Lunes	|	0.375	|	0.4583333333	|	1
+Topología	|	Barmak Jonathan	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Topología	|	Szyld Martin	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Topología	|	Szyld Martin	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Estructura de la Materia 1	|	Depine Ricardo/Cobelli Pablo	|	Lunes	|	0.375	|	0.5	|	1
+Estructura de la Materia 1	|	Depine Ricardo/Cobelli Pablo	|	Jueves	|	0.375	|	0.5	|	1
+Estructura de la Materia 2	|	Tamborenea Pablo	|	Miércoles	|	0.7083333333	|	0.8333333333	|	1
+Estructura de la Materia 2	|	Pastorino Claudio	|	Viernes	|	0.7083333333	|	0.8333333333	|	1
+Estructura de la Materia 3	|	Ruíz de Azúa Martín	|	Lunes	|	0.7083333333	|	0.8333333333	|	1
+Estructura de la Materia 3	|	Ruíz de Azúa Martín	|	Jueves	|	0.7083333333	|	0.8333333333	|	1
+Estructura de la Materia 4	|	Sassot Rodolfo	|	Martes	|	0.375	|	0.5	|	1
+Estructura de la Materia 4	|	Sassot Rodolfo	|	Viernes	|	0.375	|	0.5	|	1
+Física Computacional	|	Dorso Claudio	|	Lunes	|	0.5833333333	|	0.7916666667	|	1
+Física Computacional	|	Dorso Claudio	|	Miércoles	|	0.5833333333	|	0.7916666667	|	1
+Física Contemporánea II	|	Solari Hernán	|	Lunes	|	0.7083333333	|	0.8333333333	|	1
+Física Contemporánea II	|	Solari Hernán	|	Miércoles	|	0.7083333333	|	0.8333333333	|	1
+Física I (B-G)	|	Inchaussandague Marina	|	Martes	|	0.375	|	0.4583333333	|	2
+Física I (B-G)	|	Inchaussandague Marina	|	Viernes	|	0.375	|	0.4583333333	|	2
+Física I (B-G)	|	De Rossi María Emilia	|	Martes	|	0.4583333333	|	0.5833333333	|	2
+Física I (B-G)	|	De Rossi María Emilia	|	Viernes	|	0.4583333333	|	0.5833333333	|	2
+Física I (B-G)	|	Martínez Ricci María Luz	|	Martes	|	0.4583333333	|	0.5833333333	|	2
+Física I (B-G)	|	Martínez Ricci María Luz	|	Viernes	|	0.4583333333	|	0.5833333333	|	2
+Física I (B-G)	|	Mindlin Bernardo	|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Física I (B-G)	|	Mindlin Bernardo	|	Viernes	|	0.7083333333	|	0.7916666667	|	2
+Física I (B-G)	|	Trevisan Marcos	|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Física I (B-G)	|	Trevisan Marcos	|	Viernes	|	0.7916666667	|	0.9166666667	|	2
+Física I (Paleontología)	|		|	Martes	|	0.4791666667	|	0.5625	|	2
+Física I (Paleontología)	|		|	Viernes	|	0.4791666667	|	0.5625	|	2
+Física I (Paleontología)	|	Salles Alejo	|	Martes	|	0.3541666667	|	0.4791666667	|	2
+Física I (Paleontología)	|	Salles Alejo	|	Viernes	|	0.3541666667	|	0.4791666667	|	2
+Física II (B-G)	|	Pietrasanta Lía	|	Miércoles	|	0.375	|	0.4583333333	|	2
+Física II (B-G)	|	Pietrasanta Lía	|	Viernes	|	0.375	|	0.4583333333	|	2
+Física II (B-G)	|	Montanari Claudia	|	Miércoles	|	0.4583333333	|	0.5833333333	|	2
+Física II (B-G)	|	Montanari Claudia	|	Viernes	|	0.4583333333	|	0.5833333333	|	2
+Física II (B-G)	|	Steren Laura	|	Miércoles	|	0.7083333333	|	0.7916666667	|	2
+Física II (B-G)	|	Steren Laura	|	Viernes	|	0.7083333333	|	0.7916666667	|	2
+Física II (B-G)	|	Steren Laura	|	Miércoles	|	0.7916666667	|	0.9166666667	|	2
+Física II (B-G)	|	Steren Laura	|	Viernes	|	0.7916666667	|	0.9166666667	|	2
+Física Teórica 1	|	Mininni Pablo	|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Física Teórica 1	|	Mininni Pablo	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Física Teórica 1	|	Capuzzi Pablo	|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Física Teórica 1	|	Capuzzi Pablo	|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Física Teórica 2	|	Calzetta Esteban	|	Martes	|	0.375	|	0.4583333333	|	1
+Física Teórica 2	|	Calzetta Esteban	|	Viernes	|	0.375	|	0.4583333333	|	1
+Física Teórica 2	|	Alvarez Ezequiel	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Física Teórica 2	|	Alvarez Ezequiel	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Física Teórica 3	|	Hernández Susana	|	Lunes	|	0.375	|	0.4583333333	|	1
+Física Teórica 3	|	Hernández Susana	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Física Teórica 3	|	Hernández Susana	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Física Teórica 3	|	Hernández Susana	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Física 1	|	Szybisz Leszek	|	Martes	|	0.375	|	0.4583333333	|	1
+Física 1	|	Szybisz Leszek	|	Viernes	|	0.375	|	0.4583333333	|	1
+Física 1	|	Balenzuela Pablo	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Física 1	|	Balenzuela Pablo	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Física 1	|	Nuñez Carmen	|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Física 1	|	Nuñez Carmen	|	Viernes	|	0.7083333333	|	0.7916666667	|	1
+Física 1	|	Cristiani German	|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Física 1	|	Cristiani German	|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Física I (Q)	|	Chimento Luis	|	Lunes	|	0.5833333333	|	0.6666666667	|	2
+Física I (Q)	|	Chimento Luis	|	Miércoles	|	0.5833333333	|	0.6666666667	|	2
+Física I (Q)	|	Bertucci César	|	Lunes	|	0.6666666667	|	0.7916666667	|	2
+Física I (Q)	|	Bertucci César	|	Miércoles	|	0.6666666667	|	0.7916666667	|	2
+Física 2	|	Skigin Diana	|	Martes	|	0.375	|	0.4583333333	|	1
+Física 2	|	Skigin Diana	|	Viernes	|	0.375	|	0.4583333333	|	1
+Física 2	|	Freytes Verónica	|	Martes	|	0.4583333333	|	0.5833333333	|	1
+Física 2	|	Freytes Verónica	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Física 2	|	Arbo Diego	|	Martes	|	0.7083333333	|	0.7916666667	|	1
+Física 2	|	Arbo Diego	|	Viernes	|	0.7083333333	|	0.7916666667	|	1
+Física 2	|	Cuevas Mauro	|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Física 2	|	Cuevas Mauro	|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Física II (Q)	|	Mandrini Cristina	|	Martes	|	0.7083333333	|	0.7916666667	|	2
+Física II (Q)	|	Mandrini Cristina	|	Jueves	|	0.7083333333	|	0.7916666667	|	2
+Física II (Q)	|	Gulisano Adriana	|	Martes	|	0.7916666667	|	0.9166666667	|	2
+Física II (Q)	|	Gulisano Adriana	|	Jueves	|	0.7916666667	|	0.9166666667	|	2
+Física 3	|	Kelly Héctor	|	Lunes	|	0.375	|	0.4583333333	|	1
+Física 3	|	Kelly Héctor	|	Jueves	|	0.375	|	0.4583333333	|	1
+Física 3	|	Buccino Andrea	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Física 3	|	Buccino Andrea	|	Jueves	|	0.4583333333	|	0.5833333333	|	1
+Física 3	|	Dmitruk Pablo	|	Lunes	|	0.7083333333	|	0.7916666667	|	1
+Física 3	|	Dmitruk Pablo	|	Jueves	|	0.7083333333	|	0.7916666667	|	1
+Física 3	|	Fortin Sebastián	|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Física 3	|	Fortin Sebastián	|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Física 4	|	Giribet Claudia 	|	Miércoles	|	0.375	|	0.4583333333	|	1
+Física 4	|	Giribet Claudia 	|	Viernes	|	0.375	|	0.4583333333	|	1
+Física 4	|	Sacanell Joaquín	|	Miércoles	|	0.4583333333	|	0.5833333333	|	1
+Física 4	|	Sacanell Joaquín	|	Viernes	|	0.4583333333	|	0.5833333333	|	1
+Física 4	|	Rozemberg Marcelo	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Física 4	|	Rozemberg Marcelo	|	Viernes	|	0.7083333333	|	0.7916666667	|	1
+Física 4	|	Aiello Matías	|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Física 4	|	Aiello Matías	|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Mecánica Clásica	|	Giribet Gastón	|	Lunes	|	0.375	|	0.4583333333	|	1
+Mecánica Clásica	|	Giribet Gastón	|	Jueves	|	0.375	|	0.4583333333	|	1
+Mecánica Clásica	|	Rodríguez Chariarse Vladimir	|	Lunes	|	0.4583333333	|	0.5833333333	|	1
+Mecánica Clásica	|	Rodríguez Chariarse Vladimir	|	Jueves	|	0.4583333333	|	0.5833333333	|	1
+Temas de Física de la Materia Condensada (Sólidos)	|	Arrachea Liliana	|	Lunes	|	0.4166666667	|	0.4791666667	|	1
+Temas de Física de la Materia Condensada (Sólidos)	|	Arrachea Liliana	|	Miércoles	|	0.4166666667	|	0.4791666667	|	1
+Temas de Física de la Materia Condensada (Sólidos)	|	Arrachea Liliana	|	Lunes	|	0.4791666667	|	0.5416666667	|	1
+Temas de Física de la Materia Condensada (Sólidos)	|	Arrachea Liliana	|	Miércoles	|	0.4791666667	|	0.5416666667	|	1
+Algoritmos y Estructura de Datos I	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos I	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos I	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos I	|	Gravano Agustín	|	Lunes	|	0.3541666667	|	0.5625	|	1
+Algoritmos y Estructura de Datos I	|	Gravano Agustín	|	Miércoles	|	0.3541666667	|	0.5625	|	1
+Algoritmos y Estructura de Datos I	|	Gravano Agustín	|	Viernes	|	0.3541666667	|	0.5625	|	1
+Algoritmos y Estructura de Datos II	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos II	|		|	Miércoles	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos II	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Algoritmos y Estructura de Datos III	|		|	Lunes	|	0.7083333333	|	0.875	|	1
+Algoritmos y Estructura de Datos III	|		|	Miércoles	|	0.7083333333	|	0.875	|	1
+Algoritmos y Estructura de Datos III	|		|	Viernes	|	0.7083333333	|	0.875	|	1
+Algoritmos y Estructuras de Datos Avanzadas	|	Lin Min Chin	|	Lunes	|	0.625	|	0.75	|	1
+Algoritmos y Estructuras de Datos Avanzadas	|	Lin Min Chin	|	Miércoles	|	0.625	|	0.75	|	1
+Base de Datos	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Base de Datos	|		|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Co-Diseño Hardware Software Usando FPGAs	|		|	Martes	|	0.4166666667	|	0.5625	|	1
+Computación Gráfica I	|		|	Lunes	|	0.75	|	0.9166666667	|	1
+Computación Gráfica I	|		|	Martes	|	0.75	|	0.9166666667	|	1
+Diseño Avanzado Orientado a Objetos	|		|	Lunes	|	0.7916666667	|	0.9166666667	|	1
+Diseño Avanzado Orientado a Objetos	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Gestión de Proyectos y Procesos de Software	|		|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Ingeniería de Software I	|		|	Lunes	|	0.7083333333	|	0.9166666667	|	1
+Ingeniería de Software I	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Ingeniería de Software II	|		|	Lunes	|	0.75	|	0.9166666667	|	1
+Ingeniería de Software II	|		|	Jueves	|	0.75	|	0.9166666667	|	1
+Introducción a la Neurociencia Cognitiva y Computacional	|	Fernández Slezak/Sigman	|	Martes	|	0.375	|	0.5833333333	|	1
+Introducción a la Neurociencia Cognitiva y Computacional	|	Fernández Slezak/Sigman	|	Jueves	|	0.375	|	0.5833333333	|	1
+Introducción a las Tecnologías del Habla	|	Gravano Agustín	|	Jueves	|	0.5833333333	|	0.75	|	1
+Maestría en Data Mining	|		|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Maestría en Data Mining	|		|	Jueves	|	0.7916666667	|	0.9166666667	|	1
+Maestría en Data Mining	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Maestría en Data Mining	|		|	Viernes	|	0.7916666667	|	0.9166666667	|	1
+Maestría en Data Mining	|		|	Sábado	|	0.375	|	0.6666666667	|	1
+Maestría en Data Mining	|		|	Sábado	|	0.375	|	0.6666666667	|	1
+Lógica y Computabilidad	|	Figueira Santiago	|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Lógica y Computabilidad	|	Grimson Rafael	|	Viernes	|	0.7083333333	|	0.9166666667	|	1
+Métodos Numéricos	|		|	Lunes	|	0.7083333333	|	0.875	|	1
+Métodos Numéricos	|		|	Miércoles	|	0.7083333333	|	0.875	|	1
+Métodos Numéricos	|		|	Viernes	|	0.7083333333	|	0.875	|	1
+Organización del Computador I	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Organización del Computador I	|		|	Jueves	|	0.7083333333	|	0.7708333333	|	1
+Organización del Computador II	|		|	Martes	|	0.7083333333	|	0.9166666667	|	1
+Organización del Computador II	|		|	Jueves	|	0.7083333333	|	0.9166666667	|	1
+Paradigmas de Programación	|		|	Martes	|	0.7291666667	|	0.875	|	1
+Paradigmas de Programación	|		|	Jueves	|	0.7291666667	|	0.8125	|	1
+Redes Neuronales	|	Segura Enrique	|	Martes	|	0.7083333333	|	0.8333333333	|	1
+Redes Neuronales	|	Segura Enrique	|	Jueves	|	0.7083333333	|	0.8333333333	|	1
+Seminario Avanzado de Programación Lineal Entera	|	Bonomo Flavia	|	Miércoles	|	0.5833333333	|	0.75	|	1
+Sistemas Operativos	|		|	Martes	|	0.7083333333	|	0.875	|	1
+Sistemas Operativos	|		|	Jueves	|	0.7083333333	|	0.875	|	1
+Teoría de las Comunicaciones	|		|	Martes	|	0.7916666667	|	0.9166666667	|	1
+Teoría de las Comunicaciones	|		|	Miércoles	|	0.7916666667	|	0.9166666667	|	1
+Teoría de Lenguajes	|		|	Lunes	|	0.75	|	0.875	|	1
+Teoría de Lenguajes	|		|	Miércoles	|	0.7083333333	|	0.7916666667	|	1
+Teoría de Lenguajes	|		|	Jueves	|	0.8125	|	0.9166666667	|	1
+Teoría de la Computabilidad	|		|	Miércoles	|	0.5833333333	|	0.75	|	1
+Biodiversidad de Vegetales	|	Hoc Patricia/Maldonado Sara	|	Lunes	|	0.4166666667	|	0.5	|	2
+Biodiversidad de Vegetales	|	Hoc Patricia/Maldonado Sara	|	Miércoles	|	0.4166666667	|	0.5	|	2
+Biología Celular	|	Paz Dante	|	Lunes	|	0.5833333333	|	0.6875	|	2
+Biología Celular	|	Paz Dante	|	Jueves	|	0.5833333333	|	0.6875	|	2
+Biología Celular (desde 27/8)	|	Pozzi Andrea	|	Lunes	|	0.7083333333	|	0.875	|	2
+Biología de la Conservación	|	López de Casenave/Bilenca	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Biología de la Conservación	|	López de Casenave/Bilenca	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Biología de la Conservación	|	Carmaran Cecilia	|	Martes	|	0.375	|	0.5416666667	|	2
+Biología de la Conservación	|	Carmaran Cecilia	|	Jueves	|	0.375	|	0.5416666667	|	2
+Biología de la Conservación	|	Mahler Bettina	|	Martes	|	0.7083333333	|	0.875	|	2
+Biología de la Conservación	|	Mahler Bettina	|	Jueves	|	0.7083333333	|	0.875	|	2
+Elementos de Biología Floral	|	Hoc Patricia	|	Miércoles	|	0.4583333333	|	0.5416666667	|	2
+Elementos de Biología Floral	|	Hoc Patricia	|	Viernes	|	0.4583333333	|	0.5416666667	|	2
+Fisiología Animal Comparada	|	Rodríguez Enrique	|	Martes	|	0.4166666667	|	0.5416666667	|	2
+Fisiología Animal Comparada	|	Rodríguez Enrique	|	Jueves	|	0.4166666667	|	0.5416666667	|	2
+Fisiología Animal Comparada (desde 22/8)	|	Medesani Daniel	|	Miércoles	|	0.375	|	0.5416666667	|	2
+Fisiología Animal Comparada (desde 22/8)	|	Medesani Daniel	|	Miércoles	|	0.5833333333	|	0.75	|	2
+Fisiología Animal Comparada (desde 22/8)	|	Medesani Daniel	|	Miércoles	|	0.75	|	0.9166666667	|	2
+Fisiología de Insectos	|	Farina Walter	|	Martes	|	0.75	|	0.875	|	2
+Fisiología de Insectos	|	Farina Walter	|	Jueves	|	0.75	|	0.875	|	2
+Fisiología de Insectos	|	Lorenzo Figueiras Alicia	|	Martes	|	0.5625	|	0.7291666667	|	2
+Fitopatología	|	López Silvia	|	Miércoles	|	0.6041666667	|	0.7083333333	|	2
+Fitopatología	|	López Silvia	|	Viernes	|	0.6041666667	|	0.7083333333	|	2
+Histología Animal	|	Pandolfi Matías	|	Lunes	|	0.5625	|	0.6875	|	2
+Histología Animal	|	Pandolfi Matías	|	Miércoles	|	0.5625	|	0.6875	|	2
+Introducción a la Botánica	|	Rodríguez María Cecilia	|	Lunes	|	0.75	|	0.875	|	2
+Introducción a la Botánica	|	Rodríguez María Cecilia	|	Miércoles	|	0.75	|	0.875	|	2
+Introducción a la Botánica	|		|	Lunes	|	0.4166666667	|	0.5416666667	|	2
+Introducción a la Botánica	|		|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Introducción a la Zoología	|	Löpez Laura/Manrique Gabriel	|	Martes	|	0.7291666667	|	0.8541666667	|	2
+Introducción a la Zoología	|	Löpez Laura/Manrique Gabriel	|	Jueves	|	0.7291666667	|	0.8541666667	|	2
+Invertebrados II	|	Roccatagliata Daniel	|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Invertebrados II	|	Roccatagliata Daniel	|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Sistemática de Plantas Vasculares	|	Burghardt Alicia	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Sistemática de Plantas Vasculares	|	Burghardt Alicia	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Vertebrados	|	Faivovich Julián	|	Miércoles	|	0.4166666667	|	0.5416666667	|	2
+Vertebrados	|	Faivovich Julián	|	Viernes	|	0.4166666667	|	0.5416666667	|	2
+Biometría 	|	Cittadino Emilio	|	Lunes	|	0.7708333333	|	0.8958333333	|	2
+Biometría 	|	Cittadino Emilio	|	Miércoles	|	0.7708333333	|	0.8958333333	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Martes	|	0.375	|	0.5416666667	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Jueves	|	0.375	|	0.5416666667	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Martes	|	0.5833333333	|	0.75	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Jueves	|	0.5833333333	|	0.75	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Martes	|	0.75	|	0.9166666667	|	2
+Biometría (desde 28/08)	|	Olguin Salinas Héctor	|	Jueves	|	0.75	|	0.9166666667	|	2
+Biometría II	|	Pérez Adriana	|	Lunes	|	0.375	|	0.5	|	2
+Biometría II	|	Pérez Adriana	|	Jueves	|	0.375	|	0.5	|	2
+Biometría II	|	Fernández María Soledad	|	Martes	|	0.375	|	0.5416666667	|	2
+Biometría II	|	Fernández María Soledad	|	Viernes	|	0.375	|	0.5416666667	|	2
+Biometría II	|	Filloy Julieta	|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Biometría II	|	Filloy Julieta	|	Viernes	|	0.5416666667	|	0.7083333333	|	2
+Citogenética	|	Mudry Marta	|	Lunes	|	0.5833333333	|	0.6875	|	2
+Citogenética	|	Mudry Marta	|	Miércoles	|	0.5833333333	|	0.6875	|	2
+Ecología de Poblaciones	|	Gurtler Ricardo/Cecere Carla	|	Martes	|	0.5833333333	|	0.6875	|	2
+Ecología de Poblaciones	|	Gurtler Ricardo/Cecere Carla	|	Jueves	|	0.5833333333	|	0.6875	|	2
+Ecología de Poblaciones	|	Cardinal Marta	|	Martes	|	0.375	|	0.5416666667	|	2
+Ecología de Poblaciones	|	Cardinal Marta	|	Jueves	|	0.375	|	0.5416666667	|	2
+Ecología de Poblaciones	|	Courtalon Paula	|	Martes	|	0.75	|	0.9166666667	|	2
+Ecología de Poblaciones	|	Courtalon Paula	|	Jueves	|	0.75	|	0.9166666667	|	2
+Ecología General	|	Busch María	|	Lunes	|	0.5833333333	|	0.7083333333	|	2
+Ecología General	|	Busch María	|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Ecología General (desde 22/08)	|	Madanes Nora	|	Lunes	|	0.375	|	0.5416666667	|	2
+Ecología General (desde 22/08)	|	Madanes Nora	|	Miércoles	|	0.375	|	0.5416666667	|	2
+Ecología General (desde 22/08)	|	Castelo Marcela	|	Lunes	|	0.375	|	0.5416666667	|	2
+Ecología General (desde 22/08)	|	Castelo Marcela	|	Miércoles	|	0.375	|	0.5416666667	|	2
+Ecología General (desde 22/08)	|	Cristiano Piedad	|	Lunes	|	0.75	|	0.9166666667	|	2
+Ecología General (desde 22/08)	|	Cristiano Piedad	|	Miércoles	|	0.75	|	0.9166666667	|	2
+Ecología General (desde 22/08)	|		|	Lunes	|	0.75	|	0.9166666667	|	2
+Ecología General (desde 22/08)	|		|	Miércoles	|	0.75	|	0.9166666667	|	2
+Ecología Regional	|	Carbajo Anibal	|	Lunes	|	0.7083333333	|	0.875	|	2
+Ecología Regional	|	Carbajo Anibal	|	Miércoles	|	0.7083333333	|	0.875	|	2
+Ecología Regional	|	Carbajo Anibal	|	Lunes	|	0.5833333333	|	0.6666666667	|	2
+Ecología Regional	|	Carbajo Anibal	|	Miércoles	|	0.5833333333	|	0.6666666667	|	2
+Evolución	|	Tubaro Pablo/Fanara Juan	|	Miércoles	|	0.7083333333	|	0.875	|	2
+Evolución	|	Tubaro Pablo/Fanara Juan	|	Viernes	|	0.7083333333	|	0.875	|	2
+Evolución (desde 28/08)	|	Andrioli Nancy	|	Martes	|	0.7083333333	|	0.875	|	2
+Evolución (desde 28/08)	|	Andrioli Nancy	|	Jueves	|	0.7083333333	|	0.875	|	2
+Evolución (desde 28/08)	|	Ferreyra Laura	|	Miércoles	|	0.5416666667	|	0.7083333333	|	2
+Evolución (desde 28/08)	|	Ferreyra Laura	|	Viernes	|	0.5416666667	|	0.7083333333	|	2
+Evolución (desde 28/08)	|	Levy Estrella Mariel	|	Miércoles	|	0.5416666667	|	0.7083333333	|	2
+Evolución (desde 28/08)	|	Levy Estrella Mariel	|	Viernes	|	0.5416666667	|	0.7083333333	|	2
+Genética I/Genética General	|	Hopp Esteban/Saidman Beatriz	|	Martes	|	0.375	|	0.5416666667	|	2
+Genética I/Genética General	|	Hopp Esteban/Saidman Beatriz	|	Jueves	|	0.375	|	0.5416666667	|	2
+Genética I/Genética General	|	Hopp Esteban/Saidman Beatriz	|	Viernes	|	0.375	|	0.5416666667	|	2
+Genética I/Genética General	|	Bessega Cecilia	|	Lunes	|	0.375	|	0.5416666667	|	2
+Genética I/Genética General	|	Bessega Cecilia	|	Miércoles	|	0.375	|	0.5416666667	|	2
+Genética I/Genética General	|	Alberti Andrea	|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Genética I/Genética General	|	Alberti Andrea	|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Genética I/Genética General	|	Wulff Arturo	|	Martes	|	0.5416666667	|	0.7083333333	|	2
+Genética I/Genética General	|	Wulff Arturo	|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Genética I/Genética General	|	Norry Fabian	|	Martes	|	0.7083333333	|	0.875	|	2
+Genética I/Genética General	|	Norry Fabian	|	Jueves	|	0.7083333333	|	0.875	|	2
+Sistemática Teórica	|	Ramirez Martín	|	Miércoles	|	0.5833333333	|	0.6875	|	2
+Sistemática Teórica	|	Ramirez Martín	|	Viernes	|	0.5833333333	|	0.6875	|	2
+Sistemática Teórica	|	Gottlieb Alexandra	|	Miércoles	|	0.7083333333	|	0.875	|	2
+Sistemática Teórica	|	Gottlieb Alexandra	|	Viernes	|	0.7083333333	|	0.875	|	2
+Conceptos y Técnicas de Biotecnología I	|	Glikin Gerardo	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Conceptos y Técnicas de Biotecnología I	|	Glikin Gerardo	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Conceptos y Técnicas de Biotecnología I	|	Glikin Gerardo	|	Lunes	|	0.5416666667	|	0.75	|	2
+Genética Molecular	|	Iusem Norberto	|	Miércoles	|	0.75	|	0.875	|	2
+Genética Molecular	|	Iusem Norberto	|	Viernes	|	0.75	|	0.875	|	2
+Genética Molecular	|	Iusem Norberto	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Genética Molecular	|	Iusem Norberto	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Genética Molecular	|	Iusem Norberto	|	Martes	|	0.75	|	0.875	|	2
+Genética Molecular	|	Iusem Norberto	|	Jueves	|	0.75	|	0.875	|	2
+Ingeniería Genética	|	Rubintein Marcelo/Muschietti Jorge	|	Martes	|	0.75	|	0.875	|	2
+Ingeniería Genética	|	Rubintein Marcelo/Muschietti Jorge	|	Jueves	|	0.75	|	0.875	|	2
+Introducción a la Fisiología Molecular	|	Szczupak Lidia/Marengo Fernando	|	Lunes	|	0.6041666667	|	0.7291666667	|	2
+Introducción a la Fisiología Molecular	|	Szczupak Lidia/Marengo Fernando	|	Miércoles	|	0.6041666667	|	0.7291666667	|	2
+Introducción a la Fisiología Molecular	|	Freudenthal Ramiro/Delpino Amaicha	|	Lunes	|	0.3958333333	|	0.5625	|	2
+Introducción a la Fisiología Molecular	|	Freudenthal Ramiro/Delpino Amaicha	|	Lunes	|	0.75	|	0.9166666667	|	2
+Introducción a la Fisiología Molecular	|	Freudenthal Ramiro/Delpino Amaicha	|	Martes	|	0.3958333333	|	0.5625	|	2
+Química Analítica	|	Hodak José/Battaglini Fernando	|	Martes	|	0.75	|	0.875	|	2
+Química Analítica	|	Hodak José/Battaglini Fernando	|	Jueves	|	0.75	|	0.875	|	2
+Química Física II	|	Corti Horacio/Calvo Ernesto	|	Lunes	|	0.7083333333	|	0.9166666667	|	2
+Química Física II	|	Corti Horacio/Calvo Ernesto	|	Miércoles	|	0.7083333333	|	0.9166666667	|	2
+Química General e Inorgánica I	|	Gordillo Gabriel	|	Martes	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I	|	Gordillo Gabriel	|	Jueves	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I	|	Dicelio Lelia/Murgida Daniel	|	Miércoles	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I	|	Dicelio Lelia/Murgida Daniel	|	Viernes	|	0.3541666667	|	0.5	|	2
+Química General e Inorgánica I	|	Aldabe Sara/Williams Federico	|	Martes	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Aldabe Sara/Williams Federico	|	Jueves	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Estrin Dario/Negri Ricardo	|	Martes	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Estrin Dario/Negri Ricardo	|	Jueves	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Bossi Mariano/Marceca Ernesto	|	Miércoles	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Bossi Mariano/Marceca Ernesto	|	Viernes	|	0.5833333333	|	0.7291666667	|	2
+Química General e Inorgánica I	|	Soler Galo/Jobaggy Matias	|	Martes	|	0.75	|	0.875	|	2
+Química General e Inorgánica I	|	Soler Galo/Jobaggy Matias	|	Jueves	|	0.75	|	0.875	|	2
+Química General e Inorgánica II	|	Doctorovich Fabio/Slep Leonardo	|	Martes	|	0.7083333333	|	0.7916666667	|	2
+Química General e Inorgánica II	|	Doctorovich Fabio/Slep Leonardo	|	Jueves	|	0.7083333333	|	0.7916666667	|	2
+Química General e Inorgánica II	|	Castro María Ana	|	Miércoles	|	0.5833333333	|	0.6666666667	|	2
+Química General e Inorgánica II	|	Castro María Ana	|	Viernes	|	0.5833333333	|	0.6666666667	|	2
+Química General e Inorgánica II	|	De Candia Ariel	|	Martes	|	0.7916666667	|	0.8958333333	|	2
+Química General e Inorgánica II	|	De Candia Ariel	|	Jueves	|	0.7916666667	|	0.8958333333	|	2
+Bioquímica Avanzada	|	Kordon Edith	|	Martes	|	0.375	|	0.5833333333	|	2
+Bioquímica Avanzada	|	Kordon Edith	|	Viernes	|	0.375	|	0.5833333333	|	2
+Desarrollo y Diferenciación 	|	Quesada Luis	|	Martes	|	0.5833333333	|	0.7291666667	|	2
+Desarrollo y Diferenciación 	|	Quesada Luis	|	Jueves	|	0.5833333333	|	0.7291666667	|	2
+Genética Bacteriana	|	Pettinari María Julia	|	Miércoles	|	0.625	|	0.7083333333	|	2
+Genética Bacteriana	|	Pettinari María Julia	|	Viernes	|	0.625	|	0.7083333333	|	2
+Inmunoquímica	|	Rabinovich Gabriel	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Inmunoquímica	|	Rabinovich Gabriel	|	Viernes	|	0.5833333333	|	0.7083333333	|	2
+Química Biológica (B)	|	Calvo Juan Carlos	|	Martes	|	0.5833333333	|	0.7083333333	|	2
+Química Biológica (B)	|	Calvo Juan Carlos	|	Jueves	|	0.5833333333	|	0.7083333333	|	2
+Química Biológica (Q-B)	|	Calvo Juan Carlos	|	Miércoles	|	0.375	|	0.5	|	2
+Química Biológica (Q-B)	|	Calvo Juan Carlos	|	Jueves	|	0.7083333333	|	0.8333333333	|	2
+Química Biológica (Q-B)	|	Calvo Juan Carlos	|	Viernes	|	0.5416666667	|	0.6666666667	|	2
+Química Biológica (Q)	|	Calvo Juan Carlos	|	Lunes	|	0.75	|	0.875	|	2
+Química Biológica (Q)	|	Calvo Juan Carlos	|	Miércoles	|	0.75	|	0.875	|	2
+Química Biológica II B	|	Caramelo Julio	|	Miércoles	|	0.375	|	0.5416666667	|	2
+Química Biológica II B	|	Caramelo Julio	|	Viernes	|	0.375	|	0.5416666667	|	2
+Análisis Avanzado de Alimentos	|	Marino Carla	|	Martes	|	0.7083333333	|	0.8333333333	|	2
+Análisis Avanzado de Alimentos	|	Marino Carla	|	Viernes	|	0.5833333333	|	0.7916666667	|	2
+Análisis Instrumental	|	Burton Gerardo/Erra Balsells	|	Martes	|	0.75	|	0.8333333333	|	2
+Análisis Instrumental	|	Burton Gerardo/Erra Balsells	|	Jueves	|	0.75	|	0.8333333333	|	2
+Análisis Instrumental	|	Burton Gerardo	|	Martes	|	0.3541666667	|	0.5208333333	|	2
+Análisis Instrumental	|	Burton Gerardo	|	Jueves	|	0.3541666667	|	0.5208333333	|	2
+Análisis Instrumental	|	Erra Balsells Rosa	|	Martes	|	0.5625	|	0.7291666667	|	2
+Análisis Instrumental	|	Erra Balsells Rosa	|	Jueves	|	0.5625	|	0.7291666667	|	2
+Análisis Instrumental	|	Burton Gerardo	|	Martes	|	0.75	|	0.9166666667	|	2
+Análisis Instrumental	|	Burton Gerardo	|	Jueves	|	0.75	|	0.9166666667	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Lunes	|	0.4166666667	|	0.5	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Miércoles	|	0.4166666667	|	0.5	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Lunes	|	0.75	|	0.8333333333	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Miércoles	|	0.75	|	0.8333333333	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Jueves	|	0.375	|	0.5416666667	|	2
+Química Orgánica (B)	|	Matulewicz María Cristina	|	Jueves	|	0.5416666667	|	0.7083333333	|	2
+Química Orgánica (B)	|	Ramirez Javier	|	Jueves	|	0.7083333333	|	0.875	|	2
+Química Orgánica (B)	|	Bonesi Sergio	|	Viernes	|	0.375	|	0.5416666667	|	2
+Química Orgánica (B)	|	Matulewicz María Cristina	|	Jueves	|	0.375	|	0.5416666667	|	2
+Química Orgánica I	|	D'accorso Norma	|	Lunes	|	0.6458333333	|	0.7291666667	|	2
+Química Orgánica I	|	D'accorso Norma	|	Miércoles	|	0.6458333333	|	0.7291666667	|	2
+Química Orgánica I	|	D'accorso Norma	|	Miércoles	|	0.5	|	0.625	|	2
+Química Orgánica I	|	D'accorso Norma	|	Miércoles	|	0.75	|	0.875	|	2
+Química Orgánica II	|	Rodríguez Juan B	|	Martes	|	0.625	|	0.7083333333	|	2
+Química Orgánica II	|	Rodríguez Juan B	|	Jueves	|	0.625	|	0.7083333333	|	2
+Química Orgánica II	|	Rodríguez Juan B	|	Jueves	|	0.4583333333	|	0.5833333333	|	2
+Química Orgánica II	|	Rodríguez Juan B	|	Jueves	|	0.75	|	0.875	|	2
+Sintesís Orgánica	|	Varela Oscar	|	Martes	|	0.5833333333	|	0.6666666667	|	2
+Sintesís Orgánica	|	Varela Oscar	|	Jueves	|	0.5833333333	|	0.6666666667	|	2
+Sintesís Orgánica	|	Gallo Carola	|	Martes	|	0.6666666667	|	0.7916666667	|	2
+Sintesís Orgánica	|	Gallo Carola	|	Jueves	|	0.6666666667	|	0.7916666667	|	2
+Enfoques Didácticos sobre la Producción Matemática en el Aula con TICS	|	Sessa Carmen	|	Miércoles	|	0.5833333333	|	0.7083333333	|	1
+Historia de la Ciencia (CEFIEC)	|	Boido Guillermo	|	Martes	|	0.75	|	0.9166666667	|	2
+Historia de la Ciencia (CEFIEC)	|	Méndez Tito	|	Jueves	|	0.75	|	0.9166666667	|	2
+Psicología y Aprendizaje (Psicología del Aprendizaje)	|	Quaranta María Emilia	|	Miércoles	|	0.375	|	0.5	|	2
+Psicología y Aprendizaje (Psicología de la Adolescencia)	|	Zelmanovich Perla	|	Lunes	|	0.75	|	0.875	|	2
+Comunicación Científica	|	Gallardo Susana	|	Miércoles	|	0.5833333333	|	0.7083333333	|	2
+Didàctica Especial y Práctica de la Enseñanza I (M)	|	Giuliani Diana	|	Miércoles	|	0.4583333333	|	0.7083333333	|	2
+Coloquio Matemática	|		|	Jueves	|	0.625	|	0.7083333333	|	1
+

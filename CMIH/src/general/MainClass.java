@@ -2,6 +2,8 @@ package general;
 import java.io.FileNotFoundException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 import ilog.concert.*;
 import ilog.cplex.*;
@@ -13,9 +15,9 @@ import ilog.cplex.IloCplex.Status;
 public class MainClass
 {
 	// Niveles de log
-	private static boolean _mostrarSolucion = true;
-	private static boolean _verbose = true;
-	private static boolean _resumen = false;
+	private static boolean _mostrarSolucion = false;
+	private static boolean _verbose = false;
+	private static boolean _resumen = true;
 	
 	// Tiempo anterior de cplex
 	private static double _anterior = 0;
@@ -43,7 +45,7 @@ public class MainClass
 	}
 	
 	// Instancias de prueba FCEyN
-	private static ArrayList<Instancia> instanciasFCEyN() throws FileNotFoundException
+	private static List<Instancia> instanciasFCEyN() throws FileNotFoundException
 	{
 		Parametros[] parametros = new Parametros[]
 			{
@@ -62,7 +64,12 @@ public class MainClass
 //				new Parametros("instancias/ungs.txt", 0, 90, 0)     // [12]
 			};
 		
-		return new ArrayList<Instancia>(parametros.length);
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>(parametros.length);
+
+		for(Parametros p: parametros)
+			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores));
+		
+		return instancias;
 	}
 	
 	// Instancias de prueba ITC 2007
@@ -71,38 +78,43 @@ public class MainClass
 		// Cantidad de colores igual al numero cromatico para todas las instancias
 		Parametros[] parametros = new Parametros[]
 			{
-				new Parametros("instancias/itc2007/comp01-UD2.sol", 1, 8, 0),
-				new Parametros("instancias/itc2007/comp02-UD2.sol", 1, 17, 0),
-				new Parametros("instancias/itc2007/comp03-UD2.sol", 1, 16, 0),
-				new Parametros("instancias/itc2007/comp04-UD2.sol", 1, 16, 0),
-				new Parametros("instancias/itc2007/comp05-UD2.sol", 1, 9, 0),
-				new Parametros("instancias/itc2007/comp06-UD2.sol", 1, 19, 0),
-				new Parametros("instancias/itc2007/comp07-UD2.sol", 1, 22, 0),
-				new Parametros("instancias/itc2007/comp08-UD2.sol", 1, 20, 0),
-				new Parametros("instancias/itc2007/comp09-UD2.sol", 1, 15, 0),
-				new Parametros("instancias/itc2007/comp10-UD2.sol", 1, 21, 0),
-				new Parametros("instancias/itc2007/comp11-UD2.sol", 1, 8, 0),
-				new Parametros("instancias/itc2007/comp12-UD2.sol", 1, 11, 0),
-				new Parametros("instancias/itc2007/comp13-UD2.sol", 1, 18, 0),
-				new Parametros("instancias/itc2007/comp14-UD2.sol", 1, 18, 0),
-				new Parametros("instancias/itc2007/comp15-UD2.sol", 1, 14, 0),
-				new Parametros("instancias/itc2007/comp16-UD2.sol", 1, 21, 0),
-				new Parametros("instancias/itc2007/comp17-UD2.sol", 1, 17, 0),
-				new Parametros("instancias/itc2007/comp18-UD2.sol", 1, 9, 0),
-				new Parametros("instancias/itc2007/comp19-UD2.sol", 1, 15, 0),
-				new Parametros("instancias/itc2007/comp20-UD2.sol", 1, 20, 0),
-				new Parametros("instancias/itc2007/comp21-UD2.sol", 1, 20, 0)
+				new Parametros("instancias/comp01-UD2.sol", 1, 8, 0),
+				new Parametros("instancias/comp02-UD2.sol", 1, 17, 0),
+				new Parametros("instancias/comp03-UD2.sol", 1, 16, 0),
+				new Parametros("instancias/comp04-UD2.sol", 1, 16, 0),
+				new Parametros("instancias/comp05-UD2.sol", 1, 9, 0),
+				new Parametros("instancias/comp06-UD2.sol", 1, 19, 0),
+				new Parametros("instancias/comp07-UD2.sol", 1, 22, 0),
+				new Parametros("instancias/comp08-UD2.sol", 1, 20, 0),
+				new Parametros("instancias/comp09-UD2.sol", 1, 15, 0),
+				new Parametros("instancias/comp10-UD2.sol", 1, 21, 0),
+				new Parametros("instancias/comp11-UD2.sol", 1, 8, 0),
+				new Parametros("instancias/comp12-UD2.sol", 1, 11, 0),
+				new Parametros("instancias/comp13-UD2.sol", 1, 18, 0),
+				new Parametros("instancias/comp14-UD2.sol", 1, 18, 0),
+				new Parametros("instancias/comp15-UD2.sol", 1, 14, 0),
+				new Parametros("instancias/comp16-UD2.sol", 1, 21, 0),
+				new Parametros("instancias/comp17-UD2.sol", 1, 17, 0),
+				new Parametros("instancias/comp18-UD2.sol", 1, 9, 0),
+				new Parametros("instancias/comp19-UD2.sol", 1, 15, 0),
+				new Parametros("instancias/comp20-UD2.sol", 1, 20, 0),
+				new Parametros("instancias/comp21-UD2.sol", 1, 20, 0)
 			};
 		
-		return new ArrayList<Instancia>(parametros.length);
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>(parametros.length);
+
+		for(Parametros p: parametros)
+			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores));
+		
+		return instancias;
 	}	
 	
 	// Procedimiento principal para resolver varias instancias
 	public static void main(String[] args) throws NumberFormatException, FileNotFoundException
 	{
-//		ArrayList<Instancia> instancias = instanciasFCEyN();
-//		ArrayList<Instancia> instancias = instanciasITC();
-		ArrayList<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
+		List<Instancia> instancias = instanciasFCEyN();
+//		List<Instancia> instancias = instanciasITC();
+//		List<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
 		
 		for(Instancia instancia: instancias)
 		{
@@ -155,9 +167,11 @@ public class MainClass
 //			cplex.setParam(IntParam.FracCuts, -1);
 //			cplex.setParam(IntParam.MIRCuts, -1);
 //			cplex.setParam(IntParam.HeurFreq, -1);
-//			cplex.setParam(IntParam.MIPDisplay, 0);
 //			cplex.setParam(IntParam.NodeLim, 1);
-//			cplex.setWarning(null);
+			cplex.setWarning(null);
+			
+			if( _verbose == false )
+				cplex.setParam(IntParam.MIPDisplay, 0);
 
 			// optimize and output solution information
 			if( cplex.solve() )
