@@ -70,7 +70,7 @@ public class Modelo
 	}
 	
 	// Genera el modelo inicial
-	public void crear() throws IloException
+	public IloCplex crear() throws IloException
 	{
 		_cplex = new IloCplex();
 		
@@ -115,14 +115,17 @@ public class Modelo
 		for(int j=i+1; j<_instancia.getHiperarista(h).size(); ++j)
 		for(int c=0; c<_c; ++c)
 		{
+			Hiperarista hiperarista = _instancia.getHiperarista(h);
 			IloNumExpr lhs = _cplex.linearIntExpr();
 
 			lhs = _cplex.sum(lhs, zVar(h));
-			lhs = _cplex.sum(lhs, _cplex.prod(-1, xVar(i,c)));
-			lhs = _cplex.sum(lhs, xVar(j,c));
+			lhs = _cplex.sum(lhs, _cplex.prod(-1, xVar(hiperarista.getVertices().get(i),c)));
+			lhs = _cplex.sum(lhs, xVar(hiperarista.getVertices().get(j),c));
 			
 			_cplex.addLe(lhs, 1, "zc" + h + "_" + i + "_" + j + "_" + c);
 		}
+		
+		return _cplex;
 	}
 	
 	public IloCplex getCplex()

@@ -239,6 +239,15 @@ public class Instancia
 		_hiperaristas.add(hiperarista);
 	}
 	
+	public void setHiperarista(int... vertices)
+	{
+		Hiperarista nueva = new Hiperarista();
+		for(int i=0; i<vertices.length; ++i)
+			nueva.agregar(vertices[i]);
+		
+		agregar(nueva);
+	}
+	
 	// Consulta de hiperaristas
 	public ArrayList<Hiperarista> getHiperaristas()
 	{
