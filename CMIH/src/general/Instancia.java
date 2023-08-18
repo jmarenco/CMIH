@@ -20,37 +20,6 @@ public class Instancia
 	// Aristas del grafo H
 	private ArrayList<Hiperarista> _hiperaristas;
 	
-	public static class Hiperarista
-	{
-		ArrayList<Integer> _vertices;
-		
-		public Hiperarista()
-		{
-			_vertices = new ArrayList<Integer>();
-		}
-		
-		public void agregar(int vertice)
-		{
-			if( _vertices.contains(vertice) == false )
-				_vertices.add(vertice);
-		}
-		
-		public ArrayList<Integer> getVertices()
-		{
-			return _vertices;
-		}
-		
-		public boolean contiene(int vertice)
-		{
-			return _vertices.contains(vertice);
-		}
-		
-		public int size()
-		{
-			return _vertices.size();
-		}
-	}
-	
 	// Constructor para generar una instancia por codigo
 	public Instancia(int n)
 	{
@@ -276,6 +245,11 @@ public class Instancia
 		return _hiperaristas;
 	}
 	
+	public Hiperarista getHiperarista(int h)
+	{
+		return _hiperaristas.get(h);
+	}
+	
 	// Cantidad de vertices y colores
 	public int getVertices()
 	{
@@ -302,6 +276,27 @@ public class Instancia
 		}
 	}
 	
+	public int cantidadAristas()
+	{
+		int ret = 0;
+		
+		for(int i=0; i<_n; ++i)
+		for(int j=i+1; j<_n; ++j) if( _aristas[i][j] == true )
+			++ret;
+		
+		return ret;
+	}
+	
+	public int cantidadHiperaristas()
+	{
+		return _hiperaristas.size();
+	}
+	
+	public int paresTotales()
+	{
+		return _hiperaristas.stream().mapToInt(h -> h.pares()).sum();
+	}
+
 	// Nombre de la instancia
 	public void setNombre(String valor)
 	{
