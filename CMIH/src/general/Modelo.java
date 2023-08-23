@@ -133,7 +133,7 @@ public class Modelo
 		return _cplex;
 	}
 	
-	public Instancia instancia()
+	public Instancia getInstancia()
 	{
 		return _instancia;
 	}

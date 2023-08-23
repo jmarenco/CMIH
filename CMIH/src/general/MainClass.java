@@ -172,6 +172,8 @@ public class MainClass
 			
 			if( _verbose == false )
 				cplex.setParam(IntParam.MIPDisplay, 0);
+			
+			cplex.use(new Separador(modelo));
 
 			// optimize and output solution information
 			if( cplex.solve() )
@@ -207,19 +209,11 @@ public class MainClass
 				System.out.print("c: " + instancia.getColores() + " | ");
 				System.out.print(cplex.getStatus() + " | ");
 				System.out.print(_format.format(cplex.getCplexTime() - _anterior) + " sg | ");
-				
-				if( cplex.getStatus() != IloCplex.Status.Infeasible)
-				{
-					System.out.print("Obj: " + (int)cplex.getObjValue() + " | ");
-					System.out.print(cplex.getMIPRelativeGap() + "% | ");
-				}
-				else
-				{
-					System.out.print("--- | ");
-					System.out.print("--- | ");
-				}
-				
+				System.out.print(cplex.getStatus() != IloCplex.Status.Infeasible ? "Obj: " + (int)cplex.getObjValue() + " | " : "--- | ");
+				System.out.print(cplex.getStatus() != IloCplex.Status.Infeasible ? cplex.getMIPRelativeGap() + "% | " : "--- | ");
 				System.out.print("Nod: " + cplex.getNnodes() + " | ");
+
+				SeparadorPartitioned.mostrarResumen();
 				System.out.println();
 			}
 			

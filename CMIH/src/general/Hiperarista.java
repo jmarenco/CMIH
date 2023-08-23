@@ -27,6 +27,11 @@ public class Hiperarista
 		return _vertices.contains(vertice);
 	}
 	
+	public int get(int i)
+	{
+		return _vertices.get(i);
+	}
+	
 	public int size()
 	{
 		return _vertices.size();
