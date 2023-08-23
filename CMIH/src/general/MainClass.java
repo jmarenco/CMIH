@@ -234,6 +234,7 @@ public class MainClass
 
 				SeparadorPartitioned.mostrarResumen();
 				SeparadorGenPartitioned.mostrarResumen();
+				SeparadorUnionSimple.mostrarResumen();
 				System.out.println();
 			}
 			
