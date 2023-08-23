@@ -41,4 +41,9 @@ public class Hiperarista
 	{
 		return (size() * (size()-1)) / 2;
 	}
+	
+	public boolean vecino(int vertice, Instancia instancia)
+	{
+		return _vertices.stream().anyMatch(v -> instancia.getArista(vertice, v));
+	}
 }

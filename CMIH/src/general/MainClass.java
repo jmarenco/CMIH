@@ -67,7 +67,7 @@ public class MainClass
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>(parametros.length);
 
 		for(Parametros p: parametros)
-			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores));
+			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores).agregarHiperaristas(p.azulesNuevas, 0, 3, 5));
 		
 		return instancias;
 	}
@@ -104,16 +104,35 @@ public class MainClass
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>(parametros.length);
 
 		for(Parametros p: parametros)
-			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores));
+			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores).agregarHiperaristas(p.azulesNuevas, 0, 3, 5));
 		
 		return instancias;
-	}	
+	}
+	
+	// Instancias de prueba agregando hiperaristas
+	private static List<Instancia> instanciasAgregandoAzules() throws FileNotFoundException
+	{
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
+
+		for(int i=0; i<=50; i+=5)
+		{
+			Parametros p = new Parametros("instancias/2010-01.txt", 1, 21, i);
+			Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
+
+			instancia.agregarHiperaristas(p.azulesNuevas, 0, 3, 5);
+			instancia.setNombre(instancia.getNombre() + " + " + i + "a");
+			instancias.add(instancia);
+		}
+		
+		return instancias;
+	}
 	
 	// Procedimiento principal para resolver varias instancias
 	public static void main(String[] args) throws NumberFormatException, FileNotFoundException
 	{
-		List<Instancia> instancias = instanciasFCEyN();
+//		List<Instancia> instancias = instanciasFCEyN();
 //		List<Instancia> instancias = instanciasITC();
+		List<Instancia> instancias = instanciasAgregandoAzules();
 //		List<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
 		
 		for(Instancia instancia: instancias)

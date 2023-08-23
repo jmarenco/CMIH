@@ -3,6 +3,7 @@ package general;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Instancia
@@ -209,6 +210,32 @@ public class Instancia
 			if( hiperarista.size() > 1 )
 				agregar(hiperarista);
 		}
+	}
+	
+	// Agregado aleatorio de hiperaristas
+	public Instancia agregarHiperaristas(int cantidad, int seed, int minSize, int maxSize)
+	{
+		Random random = new Random(seed);
+		
+		for(int i=0; i<cantidad; ++i)
+		{
+			Hiperarista hiperarista = new Hiperarista();
+			hiperarista.agregar(random.nextInt(this.getVertices()));
+
+			int tamano = minSize + random.nextInt(maxSize-minSize+1);
+			for(int j=1; j<tamano; ++j)
+			{
+				int k = random.nextInt(this.getVertices());
+				while( !hiperarista.contiene(k) && hiperarista.vecino(k, this) )
+					k = random.nextInt(this.getVertices());
+				
+				hiperarista.agregar(k);
+			}
+			
+			this.agregar(hiperarista);
+		}
+		
+		return this;
 	}
 	
 	// Agregado de aristas
