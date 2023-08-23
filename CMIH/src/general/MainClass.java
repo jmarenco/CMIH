@@ -233,6 +233,7 @@ public class MainClass
 				System.out.print("Nod: " + cplex.getNnodes() + " | ");
 
 				SeparadorPartitioned.mostrarResumen();
+				SeparadorGenPartitioned.mostrarResumen();
 				System.out.println();
 			}
 			

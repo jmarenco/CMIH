@@ -24,6 +24,7 @@ public class Separador extends IloCplex.UserCutCallback
 		_tiempo = 0;
 		
 //		_separadores.add( new SeparadorPartitioned(this) );
+//		_separadores.add( new SeparadorGenPartitioned(this) );
 	}
 	
 	@Override

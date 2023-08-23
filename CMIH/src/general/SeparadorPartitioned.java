@@ -33,7 +33,7 @@ public class SeparadorPartitioned extends SeparadorGenerico
 				int j = hiperarista.get(jx);
 
 				double rhs = 0;
-				boolean[] D = new boolean[_n];
+				boolean[] D = new boolean[_c];
 			
 				for(int d=0; d<_c; ++d)
 				{
