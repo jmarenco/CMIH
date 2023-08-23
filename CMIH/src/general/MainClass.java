@@ -114,7 +114,7 @@ public class MainClass
 	{
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
 
-		for(int i=0; i<=50; i+=5)
+		for(int i=0; i<=10; ++i)
 		{
 			Parametros p = new Parametros("instancias/2010-01.txt", 1, 21, i);
 			Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
@@ -167,6 +167,10 @@ public class MainClass
 		{
 			Modelo modelo = new Modelo(instancia);
 			IloCplex cplex = modelo.crear();
+
+			SeparadorPartitioned.inicializarEstadisticas();
+			SeparadorGenPartitioned.inicializarEstadisticas();
+			SeparadorUnionSimple.inicializarEstadisticas();
 
 			_anterior = cplex.getCplexTime();
 

@@ -23,9 +23,9 @@ public class Separador extends IloCplex.UserCutCallback
 		_ejecuciones = 0;
 		_tiempo = 0;
 		
-//		_separadores.add( new SeparadorPartitioned(this) );
-//		_separadores.add( new SeparadorGenPartitioned(this) );
-//		_separadores.add( new SeparadorUnionSimple(this) );
+		_separadores.add( new SeparadorPartitioned(this) );
+		_separadores.add( new SeparadorGenPartitioned(this) );
+		_separadores.add( new SeparadorUnionSimple(this) );
 	}
 	
 	@Override
@@ -34,8 +34,8 @@ public class Separador extends IloCplex.UserCutCallback
 		if( !this.isAfterCutLoop() )
 	        return;
 		
-		if( _ejecuciones > 0 )
-			return;
+//		if( _ejecuciones > 0 )
+//			return;
 		
 		++_ejecuciones;
 		
