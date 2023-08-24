@@ -30,6 +30,7 @@ public class Separador extends IloCplex.UserCutCallback
 		SeparadorPartitioned.inicializarEstadisticas();
 		SeparadorGenPartitioned.inicializarEstadisticas();
 		SeparadorUnionSimple.inicializarEstadisticas();
+		SeparadorDosClique.inicializarEstadisticas();
 
 		_cplex = modelo.getCplex();
 		_modelo = modelo;
@@ -38,6 +39,7 @@ public class Separador extends IloCplex.UserCutCallback
 		_separadores.add( new SeparadorPartitioned(this) );
 		_separadores.add( new SeparadorGenPartitioned(this) );
 		_separadores.add( new SeparadorUnionSimple(this) );
+		_separadores.add( new SeparadorDosClique(this) );
 	}
 	
 	@Override

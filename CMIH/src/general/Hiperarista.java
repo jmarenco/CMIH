@@ -46,4 +46,13 @@ public class Hiperarista
 	{
 		return _vertices.stream().anyMatch(v -> instancia.getArista(vertice, v));
 	}
+	
+	public boolean vecina(Hiperarista otra, Instancia instancia)
+	{
+		for(Integer i: otra.getVertices())
+		for(Integer j: this.getVertices()) if( instancia.getArista(i, j) )
+			return true;
+		
+		return false;
+	}
 }

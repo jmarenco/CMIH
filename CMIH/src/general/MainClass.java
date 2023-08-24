@@ -240,6 +240,8 @@ public class MainClass
 				SeparadorPartitioned.mostrarResumen();
 				SeparadorGenPartitioned.mostrarResumen();
 				SeparadorUnionSimple.mostrarResumen();
+				SeparadorDosClique.mostrarResumen();
+				
 				System.out.println();
 			}
 			
