@@ -1,19 +1,20 @@
 package general;
 
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.stream.IntStream;
 
 import ilog.concert.IloException;
 
 public class SeparadorUnionSimple extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
-	private static double _umbral = 0.05;
+	private static double _umbral = 0.25;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
 	private static int _cortes = 0;
+	private static double _tiempo = 0;
 	
 	public SeparadorUnionSimple(Separador padre)
 	{
@@ -23,24 +24,25 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 	@Override
 	public void run(Solucion solucion) throws IloException
 	{
+		double inicio = System.currentTimeMillis();
 		for(int h=0; h<_instancia.cantidadHiperaristas(); ++h)
 		{
-//			if( solucion.zVar(h) < _umbral )
-//				continue;
+			if( solucion.zVar(h) < _umbral )
+				continue;
 
 			Hiperarista hiperarista = _instancia.getHiperarista(h);
 			
 			for(int c=0; c<_c; ++c)
 			for(int ix = 0; ix < hiperarista.size(); ++ix)
-			for(int jx = ix+1; jx < hiperarista.size(); ++jx)
+			for(int jx = 0; jx < hiperarista.size(); ++jx) if( ix != jx )
 			{
 				int v = hiperarista.get(ix);
 				int w = hiperarista.get(jx);
 				
-				if( solucion.xVar(v, c) < _umbral || solucion.xVar(w, c) < _umbral)
+				if( solucion.xVar(w, c) < _umbral )
 					continue;
 				
-				double lhs = solucion.zVar(h) + solucion.xVar(w, c) + solucion.xVar(v, c);
+				double lhs = solucion.zVar(h) + solucion.xVar(w, c);
 
 				ArrayList<Integer> clique = new ArrayList<Integer>();
 				clique.add(v);
@@ -60,7 +62,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 					dv.agregar(h, 1.0);
 					dv.agregar(w, c, 1.0);
 					
-					for(Integer k: clique)
+					for(Integer k: clique) if( k != v )
 						dv.agregar(k, c, 1.0);
 					
 					if( dv.getLHS() <= 2 - _epsilon )
@@ -75,7 +77,8 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 			++_intentos;
 		}
 
-		++_activaciones;
+		_activaciones++;
+		_tiempo += (System.currentTimeMillis() - inicio) / 1000.0;
 	}
 	
 	private ArrayList<Integer> verticesOrdenados(Solucion solucion, int color)
@@ -102,7 +105,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 	
 	public static void mostrarResumen()
 	{
-		System.out.print("US: " + _cortes + "/" + _activaciones + " | ");
+		System.out.print("US: " + _cortes + "/" + _activaciones + " (" + new DecimalFormat("####0.0").format(_tiempo) + " sec) | ");
 	}
 	
 	public static int cortes()
@@ -115,5 +118,6 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 		_activaciones = 0;
 		_intentos = 0;
 		_cortes = 0;
+		_tiempo = 0;
 	}
 }

@@ -1,15 +1,18 @@
 package general;
 
+import java.text.DecimalFormat;
+
 import ilog.concert.IloException;
 
 public class SeparadorGenPartitioned extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
-	private static double _umbral = 0.05;
+	private static double _umbral = 0.25;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
 	private static int _cortes = 0;
+	private static double _tiempo = 0;
 	
 	public SeparadorGenPartitioned(Separador padre)
 	{
@@ -19,10 +22,11 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 	@Override
 	public void run(Solucion solucion) throws IloException
 	{
+		double inicio = System.currentTimeMillis();
 		for(int h=0; h<_instancia.cantidadHiperaristas(); ++h)
 		{
-//			if( solucion.zVar(h) < _umbral )
-//				continue;
+			if( solucion.zVar(h) < _umbral )
+				continue;
 
 			Hiperarista hiperarista = _instancia.getHiperarista(h);
 			
@@ -61,7 +65,8 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 			++_intentos;
 		}
 
-		++_activaciones;
+		_activaciones++;
+		_tiempo += (System.currentTimeMillis() - inicio) / 1000.0;
 	}
 	
 	public static void mostrarEstadisticas()
@@ -73,7 +78,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 	
 	public static void mostrarResumen()
 	{
-		System.out.print("GP: " + _cortes + "/" + _activaciones + " | ");
+		System.out.print("GP: " + _cortes + "/" + _activaciones + " (" + new DecimalFormat("####0.0").format(_tiempo) + " sec) | ");
 	}
 	
 	public static int cortes()
@@ -86,5 +91,6 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 		_activaciones = 0;
 		_intentos = 0;
 		_cortes = 0;
+		_tiempo = 0;
 	}
 }

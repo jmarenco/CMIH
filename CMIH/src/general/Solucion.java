@@ -1,6 +1,5 @@
 package general;
 
-import ilog.cplex.IloCplex;
 import ilog.cplex.IloCplex.Status;
 
 // Representa una solucion (fraccionaria o entera)
