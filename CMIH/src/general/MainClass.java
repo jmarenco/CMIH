@@ -114,9 +114,7 @@ public class MainClass
 	{
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
 
-		_verbose = true;
-//		for(int i=0; i<=10; ++i)
-		for(int i=4; i<=4; ++i)
+		for(int i=0; i<=10; ++i)
 		{
 			Parametros p = new Parametros("instancias/2010-01.txt", 1, 21, i);
 			Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
