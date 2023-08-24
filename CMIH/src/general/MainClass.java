@@ -234,13 +234,14 @@ public class MainClass
 				System.out.print(cplex.getStatus() + " | ");
 				System.out.print(_format.format(cplex.getCplexTime() - _anterior) + " sg | ");
 				System.out.print(cplex.getStatus() != IloCplex.Status.Infeasible ? "Obj: " + (int)cplex.getObjValue() + " | " : "--- | ");
-				System.out.print(cplex.getStatus() != IloCplex.Status.Infeasible ? cplex.getMIPRelativeGap() + "% | " : "--- | ");
+				System.out.print(cplex.getStatus() != IloCplex.Status.Infeasible ? _format.format(100 * cplex.getMIPRelativeGap()) + "% | " : "--- | ");
 				System.out.print("Nod: " + cplex.getNnodes() + " | ");
 
 				SeparadorPartitioned.mostrarResumen();
 				SeparadorGenPartitioned.mostrarResumen();
 				SeparadorUnionSimple.mostrarResumen();
 				SeparadorDosClique.mostrarResumen();
+				SeparadorTresClique.mostrarResumen();
 				
 				System.out.println();
 			}

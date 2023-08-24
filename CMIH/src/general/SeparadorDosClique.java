@@ -2,6 +2,7 @@ package general;
 
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Collections;
 
 import ilog.concert.IloException;
 
@@ -59,9 +60,12 @@ public class SeparadorDosClique extends SeparadorGenerico
 				continue;
 
 			for(int c=0; c<_c; ++c)
-			for(Integer i: par.hiperarista1.getVertices())
-			for(Integer j: par.hiperarista2.getVertices())
 			{
+				final int color = c;
+				
+				int i = Collections.min(par.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
+				int j = Collections.min(par.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
+
 				if( solucion.zVar(par.indice1) + solucion.zVar(par.indice2) + solucion.xVar(i, c) + solucion.xVar(j, c) > 3 + _epsilon )
 				{
 					Desigualdad dv = new Desigualdad(_modelo, solucion);
