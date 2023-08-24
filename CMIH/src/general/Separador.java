@@ -3,6 +3,7 @@ package general;
 import java.util.ArrayList;
 
 import ilog.concert.IloException;
+import ilog.concert.IloNumVar;
 import ilog.concert.IloRange;
 import ilog.cplex.IloCplex;
 
@@ -44,7 +45,7 @@ public class Separador extends IloCplex.UserCutCallback
 
 		double inicio = _cplex.getCplexTime();
 		
-		Solucion solucion = new Solucion(_modelo);
+		Solucion solucion = new Solucion(this);
 		for(SeparadorGenerico separador: _separadores)
 			separador.run(solucion);
 		
@@ -64,5 +65,15 @@ public class Separador extends IloCplex.UserCutCallback
 	public Modelo getModelo()
 	{
 		return _modelo;
+	}
+	
+	public int getEjecuciones()
+	{
+		return _ejecuciones;
+	}
+	
+	public double getValor(IloNumVar var) throws IloException
+	{
+		return this.getValue(var);
 	}
 }

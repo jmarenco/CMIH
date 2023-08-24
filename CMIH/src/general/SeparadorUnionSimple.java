@@ -25,8 +25,8 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 	{
 		for(int h=0; h<_instancia.cantidadHiperaristas(); ++h)
 		{
-			if( solucion.zVar(h) < _umbral )
-				continue;
+//			if( solucion.zVar(h) < _umbral )
+//				continue;
 
 			Hiperarista hiperarista = _instancia.getHiperarista(h);
 			
@@ -102,7 +102,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 	
 	public static void mostrarResumen()
 	{
-		System.out.print("US: " + _cortes + "/" + _activaciones + " |");
+		System.out.print("US: " + _cortes + "/" + _activaciones + " | ");
 	}
 	
 	public static int cortes()

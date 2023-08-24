@@ -134,6 +134,9 @@ public class MainClass
 //		List<Instancia> instancias = instanciasITC();
 		List<Instancia> instancias = instanciasAgregandoAzules();
 //		List<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
+
+//		_verbose = true;
+//		_mostrarSolucion = true;
 		
 		for(Instancia instancia: instancias)
 		{
@@ -175,22 +178,23 @@ public class MainClass
 			_anterior = cplex.getCplexTime();
 
 			// Parametros
-//			cplex.setParam(IntParam.Threads, 1); // Number of threads
+			cplex.setParam(IntParam.Threads, 1); // Number of threads
 			cplex.setParam(IloCplex.DoubleParam.TiLim, 600); // Time limit
 //			cplex.setParam(DoubleParam.EpGap, 0.5); // Maximo gap relativo
+//			cplex.setParam(IntParam.NodeLim, 1); // Limite de nodos
 			
 //			cplex.setParam(BooleanParam.PreInd, false);
-//			cplex.setParam(BooleanParam.ReverseInd, false);
 //			cplex.setParam(IntParam.RelaxPreInd, 0);
 //			cplex.setParam(IntParam.PreslvNd, -1);
 //			cplex.setParam(IntParam.Reduce, 0);
-			
+//			cplex.setParam(IntParam.ImplBd, -1);
+//			
+//			cplex.setParam(IntParam.LiftProjCuts, -1);
 //			cplex.setParam(IntParam.Cliques, -1);
 //			cplex.setParam(IntParam.ZeroHalfCuts, -1);
 //			cplex.setParam(IntParam.FracCuts, -1);
 //			cplex.setParam(IntParam.MIRCuts, -1);
 //			cplex.setParam(IntParam.HeurFreq, -1);
-//			cplex.setParam(IntParam.NodeLim, 1);
 			cplex.setWarning(null);
 			
 			if( _verbose == false )
@@ -249,6 +253,19 @@ public class MainClass
 		{
 			System.err.println("Concert exception caught: " + e);
 		}
+	}
+
+	// Miniinstancia de ejemplo
+	private static Instancia miniInstanciaDeEjemplo()
+	{
+		Instancia instancia = new Instancia(3);
+		instancia.setColores(3);
+		instancia.setNombre("Test");
+		
+		instancia.setArista(0, 2);
+		instancia.setHiperarista(0, 1);
+		
+		return instancia;
 	}
 
 	// Instancia de ejemplo

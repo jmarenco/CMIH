@@ -21,8 +21,8 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 	{
 		for(int h=0; h<_instancia.cantidadHiperaristas(); ++h)
 		{
-			if( solucion.zVar(h) < _umbral )
-				continue;
+//			if( solucion.zVar(h) < _umbral )
+//				continue;
 
 			Hiperarista hiperarista = _instancia.getHiperarista(h);
 			
@@ -48,7 +48,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 				dv.agregar(h, 1.0);
 					
 				for(int d=0; d<_c; ++d)
-					dv.agregar(hiperarista.get(D[d]), d);
+					dv.agregar(hiperarista.get(D[d]), d, -1.0);
 				
 				if( dv.getLHS() <= 2 * _epsilon )
 					System.err.println("**** SeparatorGenPartitioned: desigualdad no violada!");
@@ -73,7 +73,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 	
 	public static void mostrarResumen()
 	{
-		System.out.print("GP: " + _cortes + "/" + _activaciones + " |");
+		System.out.print("GP: " + _cortes + "/" + _activaciones + " | ");
 	}
 	
 	public static int cortes()
