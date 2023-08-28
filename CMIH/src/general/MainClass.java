@@ -1,8 +1,8 @@
 package general;
+
 import java.io.FileNotFoundException;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 import ilog.concert.*;
@@ -112,15 +112,51 @@ public class MainClass
 	// Instancias de prueba agregando hiperaristas
 	private static List<Instancia> instanciasAgregandoAzules() throws FileNotFoundException
 	{
-		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
+		Parametros[] parametros = new Parametros[]
+				{
+					new Parametros("instancias/2010-01.txt", 1, 21, 0), // [0]
+//					new Parametros("instancias/2010-01.txt", 2, 22, 0), // [1]
+//					new Parametros("instancias/2010-02.txt", 1, 18, 0), // [2]
+//					new Parametros("instancias/2010-02.txt", 2, 26, 0), // [3]
+//					new Parametros("instancias/2011-01.txt", 1, 16, 0), // [4]
+//					new Parametros("instancias/2011-01.txt", 2, 20, 0), // [5]
+//					new Parametros("instancias/2012-01.txt", 1, 18, 0), // [6]
+//					new Parametros("instancias/2012-01.txt", 2, 23, 0), // [7]
+//					new Parametros("instancias/2012-02.txt", 1, 20, 0), // [8]
+//					new Parametros("instancias/2012-02.txt", 2, 22, 0), // [9]
+//					new Parametros("instancias/2014-02.txt", 1, 20, 0), // [10]
+//					new Parametros("instancias/2014-02.txt", 2, 20, 0) // [11]
+				};
 
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
+		
+		for(Parametros p: parametros)
 		for(int i=0; i<=10; ++i)
 		{
-			Parametros p = new Parametros("instancias/2010-01.txt", 1, 21, i);
 			Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
-
-			instancia.agregarHiperaristas(p.azulesNuevas, 0, 3, 5);
+			instancia.agregarHiperaristas(i, 0, 3, 5);
 			instancia.setNombre(instancia.getNombre() + " + " + i + "a");
+			instancias.add(instancia);
+		}
+		
+		return instancias;
+	}
+	
+	// Instancias de prueba aleatorias
+	private static ArrayList<Instancia> instanciasAleatorias(int cantidad, int semilla, double densidadRoja, int coloresExtra)
+	{
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>(cantidad);
+		
+		for(double densidadAzul = 0.01; densidadAzul <= 0.1; densidadAzul += 0.01)
+		{
+			int n = 30;
+			
+			Instancia instancia = new Instancia(n);
+			instancia.setNombre("rand_" + n + "_" + semilla + "_" + densidadRoja + "_" + densidadAzul + "_" + coloresExtra);
+			instancia.setColores((int)(0.75*n) + coloresExtra);
+			instancia.agregarAristas((int)(densidadRoja * n * (n-1) / 2.0), semilla);
+			instancia.agregarHiperaristas((int)(densidadAzul * n * (n-1) / 2.0), semilla+1, 3, 5);
+
 			instancias.add(instancia);
 		}
 		
@@ -133,6 +169,7 @@ public class MainClass
 //		List<Instancia> instancias = instanciasFCEyN();
 //		List<Instancia> instancias = instanciasITC();
 		List<Instancia> instancias = instanciasAgregandoAzules();
+//		List<Instancia> instancias = instanciasAleatorias(10, 0, 0.4, 7);
 //		List<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
 
 //		_verbose = true;
@@ -148,7 +185,7 @@ public class MainClass
 				System.out.println(instancia.getNombre());
 				System.out.println();
 			}
-			
+
 			resolver(instancia);
 		}
 	}
@@ -163,6 +200,8 @@ public class MainClass
 			System.out.println(instancia.cantidadHiperaristas() + " hiperaristas");
 			System.out.println(instancia.getColores() + " colores");
 			System.out.println();
+			
+			ReporteHiperaristas.mostrar(instancia);
 		}
 
 		// Genera y resuelve el modelo con cplex

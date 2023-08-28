@@ -15,6 +15,7 @@ public class SeparadorDosClique extends SeparadorGenerico
 	private static int _intentos = 0;
 	private static int _cortes = 0;
 	private static double _tiempo = 0;
+	private static boolean _activo = true;
 	
 	private ArrayList<Par> _pares;
 	
@@ -39,6 +40,10 @@ public class SeparadorDosClique extends SeparadorGenerico
 	public SeparadorDosClique(Separador padre)
 	{
 		super(padre);
+		
+		if( _activo == false )
+			return;
+
 		_pares = new ArrayList<Par>();
 		
 		// Busca todos los pares de hiperaristas vecinas
@@ -53,18 +58,24 @@ public class SeparadorDosClique extends SeparadorGenerico
 	@Override
 	public void run(Solucion solucion) throws IloException
 	{
+		if( _activo == false )
+			return;
+
 		double inicio = System.currentTimeMillis();
 		for(Par par: _pares)
 		{
 			if( solucion.zVar(par.indice1) + solucion.zVar(par.indice2) < _umbral )
+				continue;
+			
+			if( solucion.hiperaristaEntera(par.indice1) || solucion.hiperaristaEntera(par.indice2) )
 				continue;
 
 			for(int c=0; c<_c; ++c)
 			{
 				final int color = c;
 				
-				int i = Collections.min(par.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
-				int j = Collections.min(par.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
+				int i = Collections.max(par.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
+				int j = Collections.max(par.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
 
 				if( solucion.zVar(par.indice1) + solucion.zVar(par.indice2) + solucion.xVar(i, c) + solucion.xVar(j, c) > 3 + _epsilon )
 				{
@@ -114,5 +125,10 @@ public class SeparadorDosClique extends SeparadorGenerico
 		_intentos = 0;
 		_cortes = 0;
 		_tiempo = 0;
+	}
+	
+	public static void setActive(boolean valor)
+	{
+		_activo = valor;
 	}
 }

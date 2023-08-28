@@ -212,6 +212,23 @@ public class Instancia
 		}
 	}
 	
+	// Agregado aleatorio de aristas
+	public Instancia agregarAristas(int cantidad, int seed)
+	{
+		Random random = new Random(seed);
+		
+		for(int i=0; i<cantidad; ++i)
+		{
+			int j = random.nextInt(this.getVertices());
+			int k = random.nextInt(this.getVertices());
+			
+			if( j != k )
+				this.setArista(j, k);
+		}
+		
+		return this;
+	}
+
 	// Agregado aleatorio de hiperaristas
 	public Instancia agregarHiperaristas(int cantidad, int seed, int minSize, int maxSize)
 	{
@@ -226,7 +243,7 @@ public class Instancia
 			for(int j=1; j<tamano; ++j)
 			{
 				int k = random.nextInt(this.getVertices());
-				while( !hiperarista.contiene(k) && hiperarista.vecino(k, this) )
+				while( hiperarista.contiene(k) || hiperarista.vecino(k, this) )
 					k = random.nextInt(this.getVertices());
 				
 				hiperarista.agregar(k);

@@ -15,6 +15,7 @@ public class SeparadorTresClique extends SeparadorGenerico
 	private static int _intentos = 0;
 	private static int _cortes = 0;
 	private static double _tiempo = 0;
+	private static boolean _activo = true;
 	
 	private ArrayList<Triangulo> _triangulos;
 	
@@ -43,6 +44,10 @@ public class SeparadorTresClique extends SeparadorGenerico
 	public SeparadorTresClique(Separador padre)
 	{
 		super(padre);
+		
+		if( _activo == false )
+			return;
+		
 		_triangulos = new ArrayList<Triangulo>();
 		
 		// Busca todos los pares de hiperaristas vecinas
@@ -62,10 +67,16 @@ public class SeparadorTresClique extends SeparadorGenerico
 	@Override
 	public void run(Solucion solucion) throws IloException
 	{
+		if( _activo == false )
+			return;
+
 		double inicio = System.currentTimeMillis();
 		for(Triangulo triangulo: _triangulos)
 		{
 			if( solucion.zVar(triangulo.indice1) + solucion.zVar(triangulo.indice2) + solucion.zVar(triangulo.indice3) < _umbral )
+				continue;
+			
+			if( solucion.hiperaristaEntera(triangulo.indice1) || solucion.hiperaristaEntera(triangulo.indice2) || solucion.hiperaristaEntera(triangulo.indice3) )
 				continue;
 
 			for(int c1=0; c1<_c; ++c1)
@@ -74,9 +85,9 @@ public class SeparadorTresClique extends SeparadorGenerico
 				final int color1 = c1;
 				final int color2 = c2;
 
-				int i = Collections.min(triangulo.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
-				int j = Collections.min(triangulo.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
-				int k = Collections.min(triangulo.hiperarista3.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
+				int i = Collections.max(triangulo.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
+				int j = Collections.max(triangulo.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
+				int k = Collections.max(triangulo.hiperarista3.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
 
 				if( solucion.zVar(triangulo.indice1) + solucion.zVar(triangulo.indice2) + solucion.zVar(triangulo.indice3) + solucion.xVar(i, c1) + solucion.xVar(i, c2) + solucion.xVar(j, c1) + solucion.xVar(j, c2) + solucion.xVar(k, c1) + solucion.xVar(k, c2) > 5 + _epsilon )
 				{
@@ -131,5 +142,10 @@ public class SeparadorTresClique extends SeparadorGenerico
 		_intentos = 0;
 		_cortes = 0;
 		_tiempo = 0;
+	}
+	
+	public static void setActive(boolean valor)
+	{
+		_activo = valor;
 	}
 }

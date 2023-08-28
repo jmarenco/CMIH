@@ -9,10 +9,17 @@ public class Solucion
 	private double[][] _xVar;
 	private double[] _zVar;
 	
+	// Cache
+	private Boolean[] _entera;
+	
+	// Umbral para considerar una variable entera
+	private static double _umbral = 0.01;
+	
 	// Constructor
 	public Solucion(Modelo modelo)
 	{
 		_instancia = modelo.getInstancia();
+		_entera = new Boolean[_instancia.cantidadAristas()];
 		
 		_xVar = new double[_instancia.getVertices()][_instancia.getColores()];
 		_zVar = new double[_instancia.cantidadHiperaristas()];
@@ -39,7 +46,9 @@ public class Solucion
 	public Solucion(Separador separador)
 	{
 		Modelo modelo = separador.getModelo();
+
 		_instancia = modelo.getInstancia();
+		_entera = new Boolean[_instancia.cantidadAristas()];
 		
 		_xVar = new double[_instancia.getVertices()][_instancia.getColores()];
 		_zVar = new double[_instancia.cantidadHiperaristas()];
@@ -67,6 +76,37 @@ public class Solucion
 	public double zVar(int h)
 	{
 		return _zVar[h];
+	}
+	
+	// Determina si una hiperarista tiene todas sus variables asociadas enteras
+	public boolean hiperaristaEntera(int h)
+	{
+		if( _entera[h] != null ) // Si está en la cache ...
+			return _entera[h];
+		
+		Hiperarista hiperarista = _instancia.getHiperarista(h);
+		
+		if( entero(zVar(h)) == false )
+		{
+			_entera[h] = false;
+			return false;
+		}
+		
+		_entera[h] = true;
+
+		for(Integer v: hiperarista.getVertices())
+		for(int c=0; c<_instancia.getColores(); ++c) if( entero(xVar(v,c)) == false )
+		{
+			_entera[h] = false;
+			return false;
+		}
+		
+		return _entera[h];
+	}
+	
+	private boolean entero(double valor)
+	{
+		return Math.abs(valor - (int)(0.5 + valor)) < _umbral;
 	}
 	
 	// Imprime la solución

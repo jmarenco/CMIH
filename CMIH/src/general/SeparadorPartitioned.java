@@ -13,6 +13,7 @@ public class SeparadorPartitioned extends SeparadorGenerico
 	private static int _intentos = 0;
 	private static int _cortes = 0;
 	private static double _tiempo = 0;
+	private static boolean _activo = true;
 	
 	public SeparadorPartitioned(Separador padre)
 	{
@@ -22,10 +23,13 @@ public class SeparadorPartitioned extends SeparadorGenerico
 	@Override
 	public void run(Solucion solucion) throws IloException
 	{
+		if( _activo == false )
+			return;
+		
 		double inicio = System.currentTimeMillis();
 		for(int h=0; h<_instancia.cantidadHiperaristas(); ++h)
 		{
-			if( solucion.zVar(h) < _umbral )
+			if( solucion.zVar(h) < _umbral || solucion.hiperaristaEntera(h) )
 				continue;
 
 			Hiperarista hiperarista = _instancia.getHiperarista(h);
@@ -105,5 +109,10 @@ public class SeparadorPartitioned extends SeparadorGenerico
 		_intentos = 0;
 		_cortes = 0;
 		_tiempo = 0;
+	}
+	
+	public static void setActive(boolean valor)
+	{
+		_activo = valor;
 	}
 }
