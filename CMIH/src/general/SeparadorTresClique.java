@@ -10,6 +10,7 @@ public class SeparadorTresClique extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
 	private static double _umbral = 0.25;
+	private static double _profundidad = 0.5;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
@@ -89,7 +90,7 @@ public class SeparadorTresClique extends SeparadorGenerico
 				int j = Collections.max(triangulo.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
 				int k = Collections.max(triangulo.hiperarista3.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color1) + solucion.xVar(v, color2) - solucion.xVar(w, color1) - solucion.xVar(w, color2)));
 
-				if( solucion.zVar(triangulo.indice1) + solucion.zVar(triangulo.indice2) + solucion.zVar(triangulo.indice3) + solucion.xVar(i, c1) + solucion.xVar(i, c2) + solucion.xVar(j, c1) + solucion.xVar(j, c2) + solucion.xVar(k, c1) + solucion.xVar(k, c2) > 5 + _epsilon )
+				if( solucion.zVar(triangulo.indice1) + solucion.zVar(triangulo.indice2) + solucion.zVar(triangulo.indice3) + solucion.xVar(i, c1) + solucion.xVar(i, c2) + solucion.xVar(j, c1) + solucion.xVar(j, c2) + solucion.xVar(k, c1) + solucion.xVar(k, c2) > 5 + _profundidad + _epsilon )
 				{
 					Desigualdad dv = new Desigualdad(_modelo, solucion);
 
@@ -103,7 +104,7 @@ public class SeparadorTresClique extends SeparadorGenerico
 					dv.agregar(k, c1, 1.0);
 					dv.agregar(k, c2, 1.0);
 					
-					if( dv.getLHS() <= 5 - _epsilon )
+					if( dv.getLHS() <= _profundidad + 5 - _epsilon )
 						System.err.println("**** SeparatorTresClique: desigualdad no violada!");
 
 					dv.setRHS(Desigualdad.Operador.LE, 5.0);
@@ -147,5 +148,10 @@ public class SeparadorTresClique extends SeparadorGenerico
 	public static void setActive(boolean valor)
 	{
 		_activo = valor;
+	}
+	
+	public static void setProfundidad(double valor)
+	{
+		_profundidad = valor;
 	}
 }

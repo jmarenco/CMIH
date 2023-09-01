@@ -8,6 +8,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
 	private static double _umbral = 0.25;
+	private static double _profundidad = 0.5;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
@@ -50,7 +51,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 				rhs += solucion.xVar(hiperarista.get(midx), d);
 			}
 				
-			if( solucion.zVar(h) > rhs + _epsilon )
+			if( solucion.zVar(h) > rhs + _profundidad + _epsilon )
 			{
 				Desigualdad dv = new Desigualdad(_modelo, solucion);
 				dv.agregar(h, 1.0);
@@ -58,7 +59,7 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 				for(int d=0; d<_c; ++d)
 					dv.agregar(hiperarista.get(D[d]), d, -1.0);
 				
-				if( dv.getLHS() <= 2 * _epsilon )
+				if( dv.getLHS() <= _profundidad + 2 * _epsilon )
 					System.err.println("**** SeparatorGenPartitioned: desigualdad no violada!");
 
 				dv.setRHS(Desigualdad.Operador.LE, 0.0);
@@ -101,5 +102,10 @@ public class SeparadorGenPartitioned extends SeparadorGenerico
 	public static void setActive(boolean valor)
 	{
 		_activo = valor;
+	}
+	
+	public static void setProfundidad(double valor)
+	{
+		_profundidad = valor;
 	}
 }

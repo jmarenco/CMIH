@@ -10,6 +10,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
 	private static double _umbral = 0.25;
+	private static double _profundidad = 0.5;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
@@ -60,7 +61,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 					}
 				}
 				
-				if( lhs > 2 + _epsilon )
+				if( lhs > 2 + _profundidad + _epsilon )
 				{
 					Desigualdad dv = new Desigualdad(_modelo, solucion);
 					dv.agregar(h, 1.0);
@@ -69,7 +70,7 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 					for(Integer k: clique) if( k != v )
 						dv.agregar(k, c, 1.0);
 					
-					if( dv.getLHS() <= 2 - _epsilon )
+					if( dv.getLHS() <= _profundidad + 2 - _epsilon )
 						System.err.println("**** SeparatorUnionSimple: desigualdad no violada!");
 
 					dv.setRHS(Desigualdad.Operador.LE, 2.0);
@@ -128,5 +129,10 @@ public class SeparadorUnionSimple extends SeparadorGenerico
 	public static void setActive(boolean valor)
 	{
 		_activo = valor;
+	}
+	
+	public static void setProfundidad(double valor)
+	{
+		_profundidad = valor;
 	}
 }

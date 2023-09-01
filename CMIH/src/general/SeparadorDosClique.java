@@ -10,6 +10,7 @@ public class SeparadorDosClique extends SeparadorGenerico
 {
 	private static double _epsilon = 1e-4;
 	private static double _umbral = 0.25;
+	private static double _profundidad = 0.5;
 	
 	private static int _activaciones = 0;
 	private static int _intentos = 0;
@@ -77,7 +78,7 @@ public class SeparadorDosClique extends SeparadorGenerico
 				int i = Collections.max(par.hiperarista1.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
 				int j = Collections.max(par.hiperarista2.getVertices(), (v,w) -> (int)Math.signum(solucion.xVar(v, color) - solucion.xVar(w, color)));
 
-				if( solucion.zVar(par.indice1) + solucion.zVar(par.indice2) + solucion.xVar(i, c) + solucion.xVar(j, c) > 3 + _epsilon )
+				if( solucion.zVar(par.indice1) + solucion.zVar(par.indice2) + solucion.xVar(i, c) + solucion.xVar(j, c) > 3 + _profundidad + _epsilon )
 				{
 					Desigualdad dv = new Desigualdad(_modelo, solucion);
 
@@ -86,7 +87,7 @@ public class SeparadorDosClique extends SeparadorGenerico
 					dv.agregar(i, c, 1.0);
 					dv.agregar(j, c, 1.0);
 					
-					if( dv.getLHS() <= 3 - _epsilon )
+					if( dv.getLHS() <= 3 + _profundidad - _epsilon )
 						System.err.println("**** SeparatorDosClique: desigualdad no violada!");
 
 					dv.setRHS(Desigualdad.Operador.LE, 3.0);
@@ -130,5 +131,10 @@ public class SeparadorDosClique extends SeparadorGenerico
 	public static void setActive(boolean valor)
 	{
 		_activo = valor;
+	}
+	
+	public static void setProfundidad(double valor)
+	{
+		_profundidad = valor;
 	}
 }

@@ -104,7 +104,7 @@ public class MainClass
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>(parametros.length);
 
 		for(Parametros p: parametros)
-			instancias.add(new Instancia(p.archivo, p.pabellon, p.colores).agregarHiperaristas(p.azulesNuevas, 0, 3, 5));
+			instancias.add(new Instancia(p.archivo, p.colores).agregarHiperaristas(p.azulesNuevas, 0, 3, 5));
 		
 		return instancias;
 	}
@@ -115,28 +115,33 @@ public class MainClass
 		Parametros[] parametros = new Parametros[]
 				{
 					new Parametros("instancias/2010-01.txt", 1, 21, 0), // [0]
-//					new Parametros("instancias/2010-01.txt", 2, 22, 0), // [1]
-//					new Parametros("instancias/2010-02.txt", 1, 18, 0), // [2]
-//					new Parametros("instancias/2010-02.txt", 2, 26, 0), // [3]
-//					new Parametros("instancias/2011-01.txt", 1, 16, 0), // [4]
-//					new Parametros("instancias/2011-01.txt", 2, 20, 0), // [5]
-//					new Parametros("instancias/2012-01.txt", 1, 18, 0), // [6]
-//					new Parametros("instancias/2012-01.txt", 2, 23, 0), // [7]
-//					new Parametros("instancias/2012-02.txt", 1, 20, 0), // [8]
-//					new Parametros("instancias/2012-02.txt", 2, 22, 0), // [9]
-//					new Parametros("instancias/2014-02.txt", 1, 20, 0), // [10]
-//					new Parametros("instancias/2014-02.txt", 2, 20, 0) // [11]
+					new Parametros("instancias/2010-01.txt", 2, 22, 0), // [1]
+					new Parametros("instancias/2010-02.txt", 1, 18, 0), // [2]
+					new Parametros("instancias/2010-02.txt", 2, 26, 0), // [3]
+					new Parametros("instancias/2011-01.txt", 1, 16, 0), // [4]
+					new Parametros("instancias/2011-01.txt", 2, 20, 0), // [5]
+					new Parametros("instancias/2012-01.txt", 1, 18, 0), // [6]
+					new Parametros("instancias/2012-01.txt", 2, 23, 0), // [7]
+					new Parametros("instancias/2012-02.txt", 1, 20, 0), // [8]
+					new Parametros("instancias/2012-02.txt", 2, 22, 0), // [9]
+					new Parametros("instancias/2014-02.txt", 1, 20, 0), // [10]
+					new Parametros("instancias/2014-02.txt", 2, 20, 0) // [11]
 				};
 
 		ArrayList<Instancia> instancias = new ArrayList<Instancia>();
 		
 		for(Parametros p: parametros)
-		for(int i=0; i<=10; ++i)
 		{
-			Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
-			instancia.agregarHiperaristas(i, 0, 3, 5);
-			instancia.setNombre(instancia.getNombre() + " + " + i + "a");
-			instancias.add(instancia);
+			Instancia original = new Instancia(p.archivo, p.pabellon, p.colores);
+			instancias.add(original);
+
+			for(int i=4; i<=6; ++i)
+			{
+				Instancia instancia = new Instancia(p.archivo, p.pabellon, p.colores);
+				instancia.agregarHiperaristas(i, 0, 3, 5);
+				instancia.setNombre(instancia.getNombre() + " + " + i + "a");
+				instancias.add(instancia);
+			}
 		}
 		
 		return instancias;
@@ -163,13 +168,37 @@ public class MainClass
 		return instancias;
 	}
 	
+	// Instancias de prueba pequeñas
+	private static ArrayList<Instancia> instanciasPequenas(int cantidad, int semilla)
+	{
+		ArrayList<Instancia> instancias = new ArrayList<Instancia>(cantidad);
+
+		for(int n=35; n<=45; n+=1)
+		for(int i=0; i<cantidad; ++i)
+		{
+			int seed = semilla + i;
+			double densidadRoja = 0.3;
+
+			Instancia instancia = new Instancia(n);
+			instancia.setNombre("rand_" + n + "_" + seed);
+			instancia.setColores(n/2);
+			instancia.agregarAristas((int)(densidadRoja * n * (n-1) / 2.0), seed);
+			instancia.agregarHiperaristas((int)(0.2 * n), seed, 2, 4);
+
+			instancias.add(instancia);
+		}
+		
+		return instancias;
+	}
+	
 	// Procedimiento principal para resolver varias instancias
 	public static void main(String[] args) throws NumberFormatException, FileNotFoundException
 	{
 //		List<Instancia> instancias = instanciasFCEyN();
-//		List<Instancia> instancias = instanciasITC();
-		List<Instancia> instancias = instanciasAgregandoAzules();
+		List<Instancia> instancias = instanciasITC();
+//		List<Instancia> instancias = instanciasAgregandoAzules();
 //		List<Instancia> instancias = instanciasAleatorias(10, 0, 0.4, 7);
+//		List<Instancia> instancias = instanciasPequenas(1, 0);
 //		List<Instancia> instancias = new ArrayList<Instancia>(); instancias.add(instanciaDeEjemplo());
 
 //		_verbose = true;
@@ -186,11 +215,15 @@ public class MainClass
 				System.out.println();
 			}
 
-			resolver(instancia);
+			Separador.setActive(false);
+			resolver(instancia, true);
+
+			Separador.setActive(true);
+			resolver(instancia, true);
 		}
 	}
 
-	private static void resolver(Instancia instancia)
+	private static void resolver(Instancia instancia, boolean magia)
 	{
 		if( _verbose == true )
 		{
@@ -213,24 +246,27 @@ public class MainClass
 			_anterior = cplex.getCplexTime();
 
 			// Parametros
+			cplex.setWarning(null);
 			cplex.setParam(IntParam.Threads, 1); // Number of threads
 			cplex.setParam(IloCplex.DoubleParam.TiLim, 600); // Time limit
 //			cplex.setParam(DoubleParam.EpGap, 0.5); // Maximo gap relativo
 //			cplex.setParam(IntParam.NodeLim, 1); // Limite de nodos
 			
-//			cplex.setParam(BooleanParam.PreInd, false);
-//			cplex.setParam(IntParam.RelaxPreInd, 0);
-//			cplex.setParam(IntParam.PreslvNd, -1);
-//			cplex.setParam(IntParam.Reduce, 0);
-//			cplex.setParam(IntParam.ImplBd, -1);
-//			
-//			cplex.setParam(IntParam.LiftProjCuts, -1);
-//			cplex.setParam(IntParam.Cliques, -1);
-//			cplex.setParam(IntParam.ZeroHalfCuts, -1);
-//			cplex.setParam(IntParam.FracCuts, -1);
-//			cplex.setParam(IntParam.MIRCuts, -1);
-//			cplex.setParam(IntParam.HeurFreq, -1);
-			cplex.setWarning(null);
+			if( magia == false )
+			{
+				cplex.setParam(BooleanParam.PreInd, false);
+				cplex.setParam(IntParam.RelaxPreInd, 0);
+				cplex.setParam(IntParam.PreslvNd, -1);
+				cplex.setParam(IntParam.Reduce, 0);
+				cplex.setParam(IntParam.ImplBd, -1);
+				
+				cplex.setParam(IntParam.LiftProjCuts, -1);
+				cplex.setParam(IntParam.Cliques, -1);
+				cplex.setParam(IntParam.ZeroHalfCuts, -1);
+				cplex.setParam(IntParam.FracCuts, -1);
+				cplex.setParam(IntParam.MIRCuts, -1);
+				cplex.setParam(IntParam.FPHeur, -1);
+			}
 			
 			if( _verbose == false )
 				cplex.setParam(IntParam.MIPDisplay, 0);

@@ -92,7 +92,7 @@ public class Instancia
 	// Constructor para leer una instancia desde un archivo (instancias FCEyN)
 	public Instancia(String archivo, int pabellon, int colores) throws FileNotFoundException
 	{
-		_archivo = archivo;
+		_archivo = archivo + " (P" + pabellon + ")";
 		
 		FileInputStream fis = new FileInputStream(archivo);
 		Scanner in = new Scanner(fis);
@@ -180,7 +180,7 @@ public class Instancia
 		}
 		
 		in.close();
-		
+
 //		for(int i=0; i<clases.size(); ++i)
 //			System.out.println(i + "|" + clases.get(i).nombre + "|" + clases.get(i).docente + "|" + clases.get(i).dia + "|" + clases.get(i).horaInicio + "|" + clases.get(i).horaFin + "|" + clases.get(i).pabellon);
 
